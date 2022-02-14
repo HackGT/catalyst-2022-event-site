@@ -8,4 +8,4 @@ yarn install
 yarn start
 ```
 
-The site should be up and running.
+The site should run.
