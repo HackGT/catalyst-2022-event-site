@@ -1,0 +1,14 @@
+{
+    "name": "catalyst2022-event-site",
+    "version": "1.0.0",
+    "source": "src/index.html",
+    "repository": "https://github.com/HackGT/catalyst-2022-event-site.git", 
+    "license": "MIT",
+    "scripts": {
+        "start": "parcel serve src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "devDependencies": {
+        "parcel": "^2.3.1"
+    }
+}
