@@ -1,11 +1,13 @@
-# catalyst-2022-event-site
+## Getting Started
 
-## How to run
-Run at the catalyst-2022-event-site level
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
 ```
-yarn install
-yarn start
-```
 
-The site should run.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+For Next.js documentation see [here](https://nextjs.org/)

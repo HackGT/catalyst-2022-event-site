@@ -1,14 +1,26 @@
 {
-    "name": "catalyst2022-event-site",
-    "version": "1.0.0",
-    "source": "src/index.html",
-    "repository": "https://github.com/HackGT/catalyst-2022-event-site.git", 
-    "license": "MIT",
-    "scripts": {
-        "start": "parcel serve src/index.html",
-        "build": "parcel build src/index.html"
-    },
-    "devDependencies": {
-        "parcel": "^2.3.1"
-    }
+  "name": "catalyst-2022-event-site",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "framer-motion": "6",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.18",
+    "@types/react": "17.0.39",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.0.10",
+    "typescript": "4.5.5"
+  }
 }
