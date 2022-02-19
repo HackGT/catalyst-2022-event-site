@@ -14,3 +14,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h3{
+  padding-left: 112px;
+  font-family: Calama;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 70px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+ul,p{
+  
+  padding-left: 112px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.105em;
+  color: #000000;
+    
+}
