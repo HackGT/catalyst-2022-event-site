@@ -6,50 +6,26 @@
   font-family: Calama;
   src: url("Calama_new.ttf");
 }
-.sectionIntro {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0px;
-  left: 0px;
-  background: #93BBBF;
-}
- .sectionAbout {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  left: 0px;
-  top: 982px;
-  background: linear-gradient(180deg, rgba(147, 187, 191, 0.37) -8.24%, rgba(189, 178, 180, 0.42) 18.46%, #F2A7A7 100%);
-}
-.sectionGoals {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  left: 0px;
-  top: 2217px;
-  background: linear-gradient(180deg, #F2A7A7 0%, #F4B3A1 23.96%, #F8CF91 100%);
-} 
 .title {
   position:absolute;
-  width: 850px;
-  height: 197px;
-  left: 331px; 
+  width: 50vw;
+  height: 50vw;
+  left: 25vw;
   vertical-align: top;
   font-family: Calama;
   font-weight: normal;
-  font-size: 288px;
+  font-size: 350px;
   line-height: 280px;
   text-align: center;
   letter-spacing: 0.105em;
   color: #000000;
 }
-.description1 {
+.description {
   position: absolute;
-  width: 764px;
-  height: 101px;
-  left: 386px;
-  top: 487px;
+  width: 50vw;
+  height: 50vw;
+  left: 23vw;
+  top: 20vh;
 
   font-family: Roboto;
   font-style: italic;
@@ -64,8 +40,46 @@
 .gradientBackground {
   background-image: linear-gradient(#93BBBF, #BDB2B4, #F2A7A7, #F2A7A7, #F4B3A1, #F8CF91);
 }
+.sectionIntro {
+  position: absolute;
+  width: 100vw;
+  height: 70vh;
+  top: 0px;
+  left: 0px;
+  background: #93BBBF;
+}
+ .sectionAbout {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 79.5vh;
+  background: linear-gradient(180deg, rgba(147, 187, 191, 0.37) -8.24%, rgba(189, 178, 180, 0.42) 18.46%, #F2A7A7 100%);
+}
+.sectionGoals {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 179.5vh;
+  background: linear-gradient(180deg,#93BBBF, #BDB2B4, #F2A7A7 0%, #F4B3A1 23.96%, #F8CF91 100%);
+} 
 #planeImg{
   top: 0%;
   left: 0%;
+  width: 100vw;
+  height: auto;
 }
-
+#ticketsImg{
+  width:50vw;
+  height:auto;
+  align-items: right;
+}
+#luggageImg{
+  width:50vw;
+  height:auto;
+}
+#signsImg{
+  width:50vw;
+  height:auto;
+}

@@ -12,7 +12,7 @@ function MainPage() {
     <body>
         <section className={styles.sectionIntro}>
             <h1 className={styles.title}>CATALYST</h1>
-            <h3 className={styles.description1}><b>Now boarding...</b></h3>
+            <h3 className={styles.description}><b>Now boarding...</b></h3>
             <img src="/img/plane.png" alt = "plane going zoom" id={styles.planeImg}></img>
         </section>
         <div className={styles.gradientBackground}>
@@ -28,7 +28,7 @@ function MainPage() {
                 <li>Receive mentorship from college students and other industry professionals</li>
                 <li>Connect with opportunities at Georgia Tech to further their education and exposure</li>
             </ul>
-            <img src ="/img/Ticket.png" alt ="tickets" id={styles.ticketsImg} />
+            <div><img src ="/img/Ticket.png" alt ="tickets" id={styles.ticketsImg} /></div>
             </div>
             <div>            
             <h3>Are You a Current Georgia Tech Student?</h3>
