@@ -8,11 +8,10 @@ function MainPage() {
         <title>Catalyst: A Learning Liftoff</title>
         <meta name="description" content="Catalyst is a free day of STE(A)M education directed towards underserved Georgia high school students formatted as a series of workshops." />
         <meta property="og:url" content="https://catalyst.hexlabs.org/" />
-        <meta name = "viewport" content="initial-scale=1, minimum-scale=1" />
       </Head>
     <body>
         <section className={styles.sectionIntro}>
-            <h1 className={styles.title1}>CATALYST</h1>
+            <h1 className={styles.title}>CATALYST</h1>
             <h3 className={styles.description1}><b>Now boarding...</b></h3>
             <img src="/img/plane.png" alt = "plane going zoom" id={styles.planeImg}></img>
         </section>
