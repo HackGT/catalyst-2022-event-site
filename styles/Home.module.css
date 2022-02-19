@@ -114,3 +114,93 @@
     flex-direction: column;
   }
 }
+
+.sectionIntro {
+  position: absolute;
+  height: 982px;
+  width: 1512px;
+  top: 0px;
+  left: 0px;
+  background: #93BBBF;
+}
+ .sectionAbout{
+  position: absolute;
+  width: 1512px;
+  height: 1235px;
+  left: 0px;
+  top: 982px;
+  background: linear-gradient(180deg, rgba(147, 187, 191, 0.37) -8.24%, rgba(189, 178, 180, 0.42) 18.46%, #F2A7A7 100%);
+}
+.sectionGoals{
+  position: absolute;
+  width: 1512px;
+  height: 1905px;
+  left: 0px;
+  top: 2217px;
+  background: linear-gradient(180deg, #F2A7A7 0%, #F4B3A1 23.96%, #F8CF91 100%);
+} 
+.title1{
+  position:absolute;
+  width: 850px;
+  height: 197px;
+  left: 331px; 
+  vertical-align: top;
+  font-family: Calama;
+  font-weight: normal;
+  font-size: 288px;
+  line-height: 280px;
+  text-align: center;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+.description1{
+  position: absolute;
+  width: 764px;
+  height: 101px;
+  left: 386px;
+  top: 487px;
+
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.105em;
+
+  color: #000000;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: Calama;
+  src: url("Calama_new.ttf");
+}
+#planeImg{
+  top: 0%;
+  left: 0%;
+}
+h3{
+padding-left: 112px;
+font-family: Calama;
+font-style: italic;
+font-weight: normal;
+font-size: 72px;
+line-height: 70px;
+letter-spacing: 0.105em;
+color: #000000;
+}
+ul,p{
+  
+padding-left: 112px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.105em;
+color: #000000;
+
+}
