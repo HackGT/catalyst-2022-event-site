@@ -16,7 +16,7 @@ a {
 }
 
 h3{
-  padding-left: 112px;
+  padding-left: 11vw;
   font-family: Calama;
   font-weight: normal;
   font-size: 72px;
@@ -28,7 +28,7 @@ h3{
 ul,p{
   justify-content: left;
   width: 50vw;
-  padding-left: 112px;
+  padding-left: 11vw;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

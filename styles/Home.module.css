@@ -41,9 +41,9 @@
   background-image: linear-gradient(#93BBBF, #BDB2B4, #F2A7A7, #F2A7A7, #F4B3A1, #F8CF91);
 }
 .sectionIntro {
-  position: absolute;
+  display: flex;
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   top: 0px;
   left: 0px;
   background: #93BBBF;
@@ -51,17 +51,17 @@
  .sectionAbout {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   left: 0px;
-  top: 79.5vh;
+  top: 100vh;
   background: linear-gradient(180deg, rgba(147, 187, 191, 0.37) -8.24%, rgba(189, 178, 180, 0.42) 18.46%, #F2A7A7 100%);
 }
 .sectionGoals {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 300vh;
   left: 0px;
-  top: 179.5vh;
+  top: 250vh;
   background: linear-gradient(180deg,#93BBBF, #BDB2B4, #F2A7A7 0%, #F4B3A1 23.96%, #F8CF91 100%);
 } 
 .sectionTracks {
@@ -96,6 +96,10 @@
   bottom: 0px;
   z-index: 0;
   top: 1165vh;
+}
+#sectionCohort{
+  position: absolute;
+  top: 80vh;
 }
 .socials {
   z-index: 1000;
@@ -207,23 +211,35 @@
   padding-left: 0;
 }
 #planeImg{
-  top: 0%;
-  left: 0%;
+  position: absolute;
+  object-fit: cover;
+  top: 10vh;
   width: 100vw;
-  height: auto;
+  height: 90vh;
 }
 #ticketsImg{
+  float: right;
   width:50vw;
   height:auto;
-  align-items: right;
+  top: 76.2vh;
+  /* align-items: right; */
 }
 #luggageImg{
+  float:right;
+  top: 0vh;
   width:50vw;
   height:auto;
 }
 #signsImg{
+  float:right;
+  top: 0vh;
   width:50vw;
   height:auto;
+  margin-left:40rem;
+  /* margin-left: 40rem;
+  float: inline-end;
+  width: 50vw;
+  height:auto; */
 }
 #clouds2Img {
   float: right;

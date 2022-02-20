@@ -18,6 +18,7 @@ function MainPage() {
         <div className={styles.gradientBackground}>
             <section className={styles.sectionAbout}>
                 <div>
+                <div>
                 <h3>About Your Trip</h3>
                 <p>HexLabs presents Catalyst, a day of STEAM-related activities directed toward high school students all throughout Georgia!
 
@@ -28,6 +29,7 @@ function MainPage() {
                     <li>Receive mentorship from college students and other industry professionals</li>
                     <li>Connect with opportunities at Georgia Tech to further their education and exposure</li>
                 </ul>
+                </div>
                 <div><img src ="/img/Ticket.png" alt ="tickets" id={styles.ticketsImg} /></div>
                 </div>
                 <div>            
@@ -44,20 +46,20 @@ function MainPage() {
             <section className={styles.sectionGoals}>
                 <div>
                 <h3>During the Day</h3>
+                <div><img src="/img/Luggage.png" alt ="luggage" id={styles.luggageImg} /></div>
                 <p>Throughout the day, students will have the opportunity to follow one of four tracks:Web Development, Product Development & Entrepreneurship, Data Science & AI, or Computer Aided Design.
 
                     Each track consists of interactive workshops and curriculum that encourages students to think critically and creatively. Additionally, there will be opportunities for students to engage and connect with various industry professionals and college students.
                     
                     We want to show high school students the value of computer science, which is why we are providing all of the resources you'll need to get started!</p>
-                <img src="/img/Luggage.png" alt ="luggage" id={styles.luggageImg} />
+                
                 </div>
-                <div>
+                <div id = {styles.sectionCohort}>
                 <h3>NEW: Catalyst Cohort</h3>
                 <p>We are introducing a cohort program that extends the vision of our Catalyst learn-a-thon. A select group of students will have the opportunity to join the Catalyst Cohort. Those who join the cohort will have a two-month immersive introductory STEM experience in web development before our learn-a-thon event! In addition to the extended exploration into web development, students will have the opportunity to engage in extracurricular activities, like field trips, office visits, and campus tours, for insight into professional and academic possibilities.
                     Cohort members will also have access to and work with HexLabs mentors to complete a unique personal project!</p>
-                <img src="/img/signs.png" alt="signs" id={styles.signsImg} />
-                </div>
-                <div>
+                
+                <div><img src="/img/signs.png" alt="signs" id={styles.signsImg} /></div>
                 <h3>Our goals</h3>
                 <p><ul><li>To foster connections between students with like-minded interest in computer science </li>
                     <li>To create a community beyond students’ high schools for discussion, interaction, and innovation</li>
