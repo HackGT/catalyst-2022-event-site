@@ -65,6 +65,7 @@ function MainPage() {
                     <li>To create a community beyond students’ high schools for discussion, interaction, and innovation</li>
                     <li>To encourage the long-term development of students’ ability to create impactful projects</li></ul></p>
                 <p>You can apply for the cohort when completing registration!</p>
+                <div><img src ="/img/Clouds.png" alt = "cloud" id={styles.clouds1Img}></img></div>
                 </div>
             </section>
             <section className={styles.sectionTracks}>
