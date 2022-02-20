@@ -55,7 +55,7 @@
 .sectionAbout {
   padding-top: 5vh;
   width: 100vw;
-  height: 140vh;
+  height: 100vh;
   background: linear-gradient(
     180deg,
     rgba(147, 187, 191, 0.37) -8.24%,
@@ -81,28 +81,29 @@
   padding: 5rem 0 15rem 0;
 }
 #luggageImg {
-  position: relative;
+  position: absolute;
   width: 70vw;
-  right: -30vw;
-  top: -150vh;
+  right: -10vw;
+  top: 250vh;
   height: auto;
 }
 #signsImg {
-  position: relative;
-  width: 50vw;
+  position: absolute;
+  width: 55vw;
+  right: -12vw;
+  top: 305vh;
   height: auto;
 }
-
 .sectionTracks {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   left: 0px;
-  padding-bottom: 20vh;
+  padding: 20vh 0 20vh 0;
   background: linear-gradient(180deg, #f8cf91 0%, #ef9c67 76.04%, #e76c3f 100%);
 }
 .sectionSchedule {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   left: 0px;
   background: linear-gradient(180deg, #e76c3f 50.44%, #edc17f 100%);
 }

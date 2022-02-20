@@ -6,7 +6,7 @@ a {
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -35,7 +35,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 18px;
   letter-spacing: 0.105em;
   color: #000000;
 }
