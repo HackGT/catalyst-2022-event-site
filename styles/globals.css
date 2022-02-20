@@ -1,40 +1,46 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
 }
 
-h3{
-  padding-left: 112px;
+html {
+  display: flex;
+}
+
+h3 {
+  padding-left: 10vw;
+  padding-bottom: 0.3em;
   font-family: Calama;
   font-weight: normal;
-  font-size: 72px;
-  line-height: 70px;
+  font-size: 40px;
+  width: 50vw;
+  line-height: 40px;
   letter-spacing: 0.105em;
   color: #000000;
 }
 
-ul,p{
+ul,
+p {
   justify-content: left;
-  width: 50vw;
-  padding-left: 112px;
+  width: 45vw;
+  padding-left: 10vw;
+  padding-bottom: 1em;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.105em;
   color: #000000;
-    
+}
+
+section {
+  padding: 0px;
+  margin: 0px;
 }
