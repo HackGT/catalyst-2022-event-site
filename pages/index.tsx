@@ -105,11 +105,11 @@ function MainPage() {
         </section>
         <section className={styles.sectionTracks}>
           <div>
-            <h3 className={styles.centerText}>Tracks</h3>
+            <h3 className={styles.sectionTitle}>Tracks</h3>
             <div className={styles.row}>
               <div className={styles.column}>
-                <h3 className={styles.centerText}>Web Development</h3>
-                <p className={styles.leftTextBoundaries}>
+                <h3 className={styles.trackTitle}>Web Development</h3>
+                <p className={styles.textBoundaries}>
                   Want to learn about the technologies core to the internet? Then Web Development is
                   for you. This track will teach you the fundamentals of HTML, CSS, and JavaScript
                   so you can build your own website.<br></br>
@@ -118,8 +118,8 @@ function MainPage() {
                 </p>
               </div>
               <div className={styles.column}>
-                <h3>Computer-Aided Design</h3>
-                <p className={styles.rightTextBoundaries}>
+                <h3 className={styles.trackTitle}>Computer-Aided Design</h3>
+                <p className={styles.textBoundaries}>
                   Do you ever wonder how common household products are made? Would you be interested
                   in designing and making those products yourself? If you like the idea of
                   fabricating hardware products from scratch, then the Modeling track is for you!
@@ -131,8 +131,8 @@ function MainPage() {
             </div>
             <div className={styles.row}>
               <div className={styles.column}>
-                <h3 className={styles.centerText}>Data Science & Artificial Intelligence</h3>
-                <p className={styles.leftTextBoundaries}>
+                <h3 className={styles.trackTitle}>Data Science & Artificial Intelligence</h3>
+                <p className={styles.textBoundaries}>
                   Do you ever wonder how things like Netflix recommendations and Spotify playlists
                   are made? Are you a technical person and like learning about what goes on in the
                   background? If so, you should consider the ML track!<br></br>
@@ -143,8 +143,8 @@ function MainPage() {
                 </p>
               </div>
               <div className={styles.column}>
-                <h3>Product Design & Entrepreneurship</h3>
-                <p className={styles.rightTextBoundaries}>
+                <h3 className={styles.trackTitle}>Product Design & Entrepreneurship</h3>
+                <p className={styles.textBoundaries}>
                   Have you ever dreamt of starting your own business? Are you a creative thinker and
                   a problem solver? Then the Product Development and Entrepreneurship track is for
                   you!<br></br>
@@ -178,7 +178,7 @@ function MainPage() {
           <img src="/img/map.png" alt="map" id={styles.mapImg} />
         </section>
         <section className={styles.sectionFAQ}>
-          <h3 className={styles.centerText}>FAQ</h3>
+          <h3 className={styles.sectionTitle}>FAQ</h3>
           <div className={styles.question}>Who can attend?</div>
           <div className={styles.answer}>
             High school students from all across Georgia are welcome to register.
