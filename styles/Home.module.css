@@ -103,7 +103,8 @@
 }
 .sectionSchedule {
   width: 100vw;
-  height: 40vw;
+  height: auto;
+  padding: 20vh 0 20vh 0;
   left: 0px;
   background: linear-gradient(180deg, #e76c3f 50.44%, #edc17f 100%);
 }
@@ -161,6 +162,19 @@
 .row {
   display: flex;
 }
+@media (max-width: 600px) {
+  .row {
+    display: inline;
+  }
+  .textBoundaries {
+    width: 80vw;
+    padding-left: 2rem;
+    padding-right: 0rem;
+  }
+  .column {
+    width: 100vw;
+  }
+}
 .column {
   width: 50vw;
   align-content: flex-start;
@@ -171,13 +185,14 @@
   margin-right: 5rem;
 }
 .textBoundaries {
-  width: 40vw;
-  padding-left: 4rem;
+  width: 35vw;
+  padding-left: 2rem;
   padding-right: 0rem;
 }
 .trackTitle {
   padding-left: 0rem;
   padding-right: 0rem;
+  font-size: 2rem;
   text-align: center;
 }
 .rectangle {
@@ -196,7 +211,7 @@
   background-color: #f28f6b;
   border: none;
   color: white;
-  padding: 20px;
+  padding: 1rem;
   font-size: 3rem;
   font-family: Calama;
   text-align: center;
@@ -241,7 +256,7 @@
   position: relative;
   width: 25vw;
   height: auto;
-  bottom: 35vh;
+  bottom: 30vh;
   left: 10vw;
   transform: rotate(30deg);
 }
@@ -262,4 +277,10 @@
   margin: auto;
   padding-left: 0rem;
   text-align: center;
+}
+.registerButton {
+  display: flex;
+  gap: 1vw;
+  margin: auto;
+  justify-content: center;
 }

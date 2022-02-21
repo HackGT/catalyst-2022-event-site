@@ -165,7 +165,10 @@ function MainPage() {
               <br></br>
               Cohort interest will be accepted until March 2nd.{" "}
             </p>
-            <button className={styles.button}>Register here</button>
+            <div className={styles.registerButton}>
+              <button className={styles.button}>Participants</button>
+              <button className={styles.button}>Mentors</button>
+            </div>
           </div>
           <img src="/img/Clouds 2.png" alt="clouds" id={styles.clouds2Img} />
         </section>
