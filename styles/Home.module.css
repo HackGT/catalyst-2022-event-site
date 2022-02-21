@@ -161,6 +161,16 @@
   .trackTitle {
     width: 100vw;
   }
+  .marginText {
+    padding: 0 !important;
+    margin: 0 !important; 
+  }
+  .registerButton {
+    display: block !important;
+  }
+  .button {
+    margin-bottom: 0 !important;
+  }
 }
 .column {
   width: 50vw;
