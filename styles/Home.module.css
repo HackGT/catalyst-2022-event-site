@@ -193,6 +193,7 @@
   padding: 10vh;
   text-align: center;
 }
+
 .button {
   background-color: #f28f6b;
   border: none;
@@ -303,5 +304,32 @@
     height: auto;
     right: -30vw;
     bottom: -5vh;
+  }
+}
+@media (max-width: 600px) {
+  .rectangle {
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    margin-top: 12rem;
+    margin-bottom: 5vh;
+    background: #f2bba7;
+    padding: 5vh 10vw 5vh 10vw;
+    text-align: center;
+  }
+  #clouds2Img {
+    width: 40vw;
+    bottom: -5vh;
+    right: 7vw;
+    transform: rotate(10deg);
+  }
+  #passportImg {
+    width: 45vw;
+    bottom: 35vh;
+  }
+  #mapImg {
+    right: 15vw;
+    width: 50vw;
+    bottom: -10vh;
   }
 }
