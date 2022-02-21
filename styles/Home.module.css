@@ -171,7 +171,10 @@
     padding-left: 2rem;
     padding-right: 0rem;
   }
-  .column {
+  .textBoundaries {
+    width: 80vw;
+  }
+  .trackTitle {
     width: 100vw;
   }
 }
@@ -185,7 +188,6 @@
   margin-right: 5rem;
 }
 .textBoundaries {
-  width: 35vw;
   padding-left: 2rem;
   padding-right: 0rem;
 }
