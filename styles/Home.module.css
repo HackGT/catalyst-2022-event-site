@@ -135,9 +135,9 @@
 }
 .socials {
   z-index: 1000;
-  margin-right: 3rem;
+  margin-right: 2rem;
   position: relative;
-  bottom: 8vh;
+  bottom: 4rem;
   float: right;
 }
 .imageMargin {
@@ -187,7 +187,6 @@
   height: auto;
   margin: auto;
   margin-top: 12rem;
-  margin-bottom: 20vh;
   border-radius: 25px;
   background: #f2bba7;
   padding: 10vh;
@@ -292,6 +291,12 @@
     width: 80vw;
     top: -10vh;
     right: -10vw;
+  }
+  #ticketsImg {
+    width: 40vw;
+    height: auto;
+    right: -30vw;
+    bottom: -5vh;
   }
 }
 @media (max-width: 800px) and (min-width: 400px) {
