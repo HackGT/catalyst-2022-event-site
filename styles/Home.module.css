@@ -82,7 +82,7 @@
 .sectionTracks {
   width: 100vw;
   height: auto;
-  padding: 20vh 0 20vh 0;
+  padding: 0vh 0 20vh 0;
   background: linear-gradient(180deg, #f8cf91 0%, #ef9c67 76.04%, #e76c3f 100%);
 }
 .sectionSchedule {
@@ -287,17 +287,18 @@
   height: auto;
   object-fit: cover;
 }
-
-@media (max-width: 600px) {
+@media (max-width: 399px) {
+  #signsImg {
+    width: 80vw;
+    top: -10vh;
+    right: -10vw;
+  }
+}
+@media (max-width: 800px) and (min-width: 400px) {
   #signsImg {
     width: 80vw;
     top: -20vh;
     right: -10vw;
-  }
-  #luggageImg {
-    width: 80vw;
-    right: -15vw;
-    top: -115vh;
   }
   #ticketsImg {
     width: 40vw;
@@ -305,8 +306,14 @@
     right: -30vw;
     bottom: -5vh;
   }
+  #luggageImg {
+    width: 80vw;
+    right: -15vw;
+    top: -120vh;
+    visibility: hidden;
+  }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .rectangle {
     width: 50vw;
     height: auto;
@@ -331,5 +338,11 @@
     right: 15vw;
     width: 50vw;
     bottom: -10vh;
+  }
+  #luggageImg {
+    width: 80vw;
+    right: -15vw;
+    top: -160vh;
+    visibility: hidden;
   }
 }
