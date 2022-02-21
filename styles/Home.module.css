@@ -55,7 +55,7 @@
 .sectionAbout {
   padding-top: 5vh;
   width: 100vw;
-  height: 80vh;
+  height: auto;
   background: linear-gradient(
     180deg,
     rgba(147, 187, 191, 0.37) -8.24%,
@@ -73,7 +73,7 @@
 }
 .sectionGoals {
   width: 100vw;
-  height: 120vh;
+  height: auto;
   background: linear-gradient(180deg, #f2a7a7 0%, #f4b3a1 23.96%, #f8cf91 100%);
 }
 .sectionDuring {
@@ -241,7 +241,7 @@
   position: relative;
   width: 25vw;
   height: auto;
-  bottom: 25vh;
+  bottom: 35vh;
   left: 10vw;
   transform: rotate(30deg);
 }
