@@ -40,6 +40,13 @@ p {
   letter-spacing: 0.105em;
   color: #000000;
 }
+@media (max-width: 600px) {
+  ul,
+  p {
+    width: 80vw;
+    line-height: 21px;
+  }
+}
 
 section {
   padding: 0px;

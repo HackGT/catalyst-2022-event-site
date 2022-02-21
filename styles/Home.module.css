@@ -79,22 +79,6 @@
 .sectionDuring {
   padding: 5rem 0 15rem 0;
 }
-#luggageImg {
-  position: relative;
-  width: 40vw;
-  right: -55vw;
-  top: -100vh;
-  height: auto;
-  object-fit: cover;
-}
-#signsImg {
-  position: relative;
-  width: 40vw;
-  top: -27vh;
-  right: -20vw;
-  height: auto;
-  object-fit: cover;
-}
 .sectionTracks {
   width: 100vw;
   height: auto;
@@ -285,4 +269,39 @@
   gap: 1vw;
   margin: auto;
   justify-content: center;
+}
+#luggageImg {
+  position: relative;
+  width: 40vw;
+  right: -55vw;
+  top: -100vh;
+  height: auto;
+  object-fit: cover;
+}
+#signsImg {
+  position: relative;
+  width: 40vw;
+  top: -27vh;
+  right: -20vw;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  #signsImg {
+    width: 80vw;
+    top: -20vh;
+    right: -10vw;
+  }
+  #luggageImg {
+    width: 80vw;
+    right: -15vw;
+    top: -115vh;
+  }
+  #ticketsImg {
+    width: 40vw;
+    height: auto;
+    right: -30vw;
+    bottom: -5vh;
+  }
 }
