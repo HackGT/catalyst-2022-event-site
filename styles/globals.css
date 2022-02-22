@@ -6,6 +6,7 @@ a {
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 
 html {
@@ -36,7 +37,7 @@ ul {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 25px;
   letter-spacing: 0.105em;
   color: #000000;
 }
@@ -50,7 +51,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 18px;
+  line-height: 25px;
   letter-spacing: 0.105em;
   color: #000000;
 }

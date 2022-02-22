@@ -13,7 +13,12 @@
 .sectionIntro {
   width: 100vw;
   height: 60vw;
-  background: #93bbbf;
+  background: linear-gradient(
+    180deg,
+    rgba(147, 187, 191, 1) 0%,
+    rgba(147, 187, 191, 0.37) 95%,
+    rgba(147, 187, 191, 0.37) 100%
+  );
   z-index: 0;
 }
 .title {
@@ -82,7 +87,7 @@
 .sectionTracks {
   width: 100vw;
   height: auto;
-  padding: 0vh 0 20vh 0;
+  padding: 0 0 20vh 0;
   background: linear-gradient(180deg, #f8cf91 0%, #ef9c67 76.04%, #e76c3f 100%);
 }
 .sectionSchedule {
@@ -146,14 +151,23 @@
 .row {
   display: flex;
 }
-@media (max-width: 800px) {
+@media (min-width: 1101px) {
+  .textBoundaries {
+    width: 40vw;
+    margin: auto;
+    padding-left: 0rem;
+  }
+  .trackTitle {
+    width: 30vw;
+    line-height: 3.5rem;
+  }
+}
+@media (max-width: 1100px) {
   .row {
     display: inline;
   }
   .textBoundaries {
     width: 80vw;
-    padding-left: 2rem;
-    padding-right: 0rem;
   }
   .marginText {
     padding: 0 !important;
@@ -166,31 +180,23 @@
     margin-bottom: 0 !important;
   }
   .trackTitle {
-    width: 80vw;
-    padding-left: 2rem;
-    padding-right: 0rem;
-    font-size: 2rem;
-    text-align: left;
   }
 }
 .column {
-  width: 50vw;
-  align-content: flex-start;
+  width: auto;
+  justify-content: flex-start;
   flex: 30%;
 }
 .marginText {
   width: auto;
   margin-right: 5rem;
 }
-.textBoundaries {
-  padding-left: 2rem;
-  padding-right: 0rem;
-}
 .trackTitle {
-  padding-left: 2rem;
+  padding-left: 0rem;
   padding-right: 0rem;
-  font-size: 2rem;
-  text-align: left;
+  font-size: 3rem;
+  text-align: center;
+  margin: auto;
 }
 .rectangle {
   position: relative;
@@ -348,7 +354,8 @@
   }
   #passportImg {
     width: 45vw;
-    bottom: 35vh;
+    bottom: 50vh;
+    left: 5vw;
   }
   #mapImg {
     right: 15vw;
