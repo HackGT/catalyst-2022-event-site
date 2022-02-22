@@ -154,7 +154,7 @@ function MainPage() {
           <div className={styles.rectangle}>
             <h3 className={styles.registerTitle}>Book Your Ticket</h3>
             <p className={styles.marginText}>
-              Registration is FREE and is open <b>NOW</b> at horizons.hack.gt
+              Registration is FREE and is open <b>NOW</b>
               <br></br>and closes on <b>April 2nd.</b>
               <br></br>
               Cohort interest will be accepted until March 2nd.{" "}
