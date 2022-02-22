@@ -73,7 +73,7 @@
   width: 40vw;
   height: auto;
   right: 2vw;
-  top: 175vh;
+  top: 75rem;
   z-index: 1;
 }
 .sectionGoals {
@@ -322,10 +322,11 @@
     transform: translate(-110%, 20%);
   }
   #ticketsImg {
-    width: 40vw;
+    width: 35vw;
     height: auto;
     right: 0vw;
-    top: 95vh;
+    top: 109vh;
+    visibility: hidden;
   }
   #luggageImg {
     width: 80vw;
