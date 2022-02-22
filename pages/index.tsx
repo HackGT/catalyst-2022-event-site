@@ -58,12 +58,12 @@ function MainPage() {
             <p>
               Throughout the day, students will have the opportunity to follow one of four
               tracks:Web Development, Product Development & Entrepreneurship, Data Science & AI, or
-              Computer Aided Design. Each track consists of interactive workshops and curriculum
-              that encourages students to think critically and creatively. Additionally, there will
-              be opportunities for students to engage and connect with various industry
-              professionals and college students. We want to show high school students the value of
-              computer science, which is why we are providing all of the resources {`you'll`} need
-              to get started!
+              Cybersecurity. Each track consists of interactive workshops and curriculum that
+              encourages students to think critically and creatively. Additionally, there will be
+              opportunities for students to engage and connect with various industry professionals
+              and college students. We want to show high school students the value of computer
+              science, which is why we are providing all of the resources {`you'll`} need to get
+              started!
             </p>
           </div>
           <h3>NEW: Catalyst Cohort</h3>
