@@ -8,7 +8,7 @@ function MainPage() {
         <title>Catalyst: A Learning Liftoff</title>
         <meta
           name="description"
-          content="Catalyst is a free day of STE(A)M education directed towards underserved Georgia high school students formatted as a series of workshops."
+          content="Catalyst is a free day of STEM education directed towards underserved Georgia high school students formatted as a series of workshops."
         />
         <meta property="og:url" content="https://catalyst.hexlabs.org/" />
       </Head>
@@ -23,11 +23,11 @@ function MainPage() {
         <section className={styles.sectionAbout}>
           <h3>About Your Trip</h3>
           <p>
-            HexLabs presents Catalyst, a day of STEAM-related activities directed toward high school
+            HexLabs presents Catalyst, a day of STEM-related activities directed toward high school
             students all throughout Georgia! This will be an opportunity for participants to:
           </p>
           <ul>
-            <li>Learn about the world of STEAM and Computer Science as a career path</li>
+            <li>Learn about the world of STEM and Computer Science as a career path</li>
             <li>Gain insight into impactful, widely-known technology companies</li>
             <li>Receive mentorship from college students and other industry professionals</li>
             <li>
