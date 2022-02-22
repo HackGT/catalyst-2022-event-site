@@ -191,7 +191,7 @@ function MainPage() {
             High school students from all across Georgia are welcome to register.
           </div>
           <div className={styles.question}>Where is Catalyst?</div>
-          <div className={styles.answer}>{`We'll be waiting for you at TBD`}</div>
+          <div className={styles.answer}>{`Catalyst will be held on Georgia Tech’s campus!`}</div>
           <div className={styles.question}>Do I need to bring anything to the learn-a-thon?</div>
           <div className={styles.answer}>
             Nope! We will provide food for every participant and laptops when necessary.
