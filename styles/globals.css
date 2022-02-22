@@ -27,16 +27,29 @@ h3 {
   color: #000000;
 }
 
-ul,
-p {
+ul {
   justify-content: left;
-  width: 45vw;
+  width: 40vw;
   padding-left: 10vw;
   padding-bottom: 1em;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+p {
+  justify-content: left;
+  width: 40vw;
+  padding-left: 10vw;
+  padding-bottom: 1em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.105em;
   color: #000000;

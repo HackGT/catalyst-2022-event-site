@@ -146,7 +146,7 @@
 .row {
   display: flex;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .row {
     display: inline;
   }
@@ -163,7 +163,7 @@
   }
   .marginText {
     padding: 0 !important;
-    margin: 0 !important; 
+    margin: 0 !important;
   }
   .registerButton {
     display: block !important;
@@ -309,7 +309,7 @@
     bottom: -5vh;
   }
 }
-@media (max-width: 800px) and (min-width: 400px) {
+@media (max-width: 700px) and (min-width: 400px) {
   #signsImg {
     width: 80vw;
     top: -20vh;

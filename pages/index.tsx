@@ -84,21 +84,19 @@ function MainPage() {
             access to and work with HexLabs mentors to complete a unique personal project!
           </p>
           <h3>Our goals</h3>
-          <p>
-            <ul>
-              <li>
-                To foster connections between students with like-minded interest in computer science{" "}
-              </li>
-              <li>
-                To create a community beyond students’ high schools for discussion, interaction, and
-                innovation
-              </li>
-              <li>
-                To encourage the long-term development of students’ ability to create impactful
-                projects
-              </li>
-            </ul>
-          </p>
+          <ul>
+            <li>
+              To foster connections between students with like-minded interest in computer science{" "}
+            </li>
+            <li>
+              To create a community beyond students’ high schools for discussion, interaction, and
+              innovation
+            </li>
+            <li>
+              To encourage the long-term development of students’ ability to create impactful
+              projects
+            </li>
+          </ul>
           <p>You can apply for the cohort when completing registration!</p>
           <img src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
           <img src="/img/signs.png" alt="signs" id={styles.signsImg} />
