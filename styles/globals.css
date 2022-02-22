@@ -10,7 +10,9 @@ a {
 }
 
 html {
+  margin-bottom: 0 !important;
   display: flex;
+  max-height: 100vh;
   overflow-x: hidden;
 }
 
