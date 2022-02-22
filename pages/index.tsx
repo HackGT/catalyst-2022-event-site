@@ -118,14 +118,15 @@ function MainPage() {
                 </p>
               </div>
               <div className={styles.column}>
-                <h3 className={styles.trackTitle}>Computer-Aided Design</h3>
+                <h3 className={styles.trackTitle}>Cybersecurity</h3>
                 <p className={styles.textBoundaries}>
-                  Do you ever wonder how common household products are made? Would you be interested
-                  in designing and making those products yourself? If you like the idea of
-                  fabricating hardware products from scratch, then the Modeling track is for you!
-                  <br></br>
-                  You will learn how to use CAD software to create 3D designs and make them with
-                  machines like 3D printers, lathes, etc.
+                  Have you ever wondered how we protect our information on the Internet? If so, the
+                  cybersecurity track is right for you! In the cybersecurity track, students will
+                  have the ability to learn more about authentication, protocols, Linux, and more!
+                  Additionally, students will get exposure to some of the basics behind ethical
+                  hacking and even get the opportunity to dabble in cryptography. After this
+                  experience, students will have exposure to the basic cybersecurity protocols used
+                  in our everyday lives.
                 </p>
               </div>
             </div>
@@ -166,8 +167,12 @@ function MainPage() {
               Cohort interest will be accepted until March 2nd.{" "}
             </p>
             <div className={styles.registerButton}>
-              <button className={styles.button}>Participants</button>
-              <button className={styles.button}>Mentors</button>
+              <a href="https://forms.gle/WLRq9B6AkmdU1fxaA" className={styles.button}>
+                Participants
+              </a>
+              <a href="https://forms.gle/G8A94VQQP2MSoXJi9" className={styles.button}>
+                Mentors
+              </a>
             </div>
           </div>
           <img src="/img/Clouds 2.png" alt="clouds" id={styles.clouds2Img} />
