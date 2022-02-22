@@ -69,11 +69,11 @@
   );
 }
 #ticketsImg {
-  position: relative;
+  position: absolute;
   width: 40vw;
   height: auto;
-  right: -60vw;
-  bottom: 35vh;
+  right: 2vw;
+  top: 175vh;
   z-index: 1;
 }
 .sectionGoals {
@@ -82,7 +82,7 @@
   background: linear-gradient(180deg, #f2a7a7 0%, #f4b3a1 23.96%, #f8cf91 100%);
 }
 .sectionDuring {
-  padding: 3rem 0 10rem 0;
+  padding: 3rem 0 5rem 0;
 }
 .sectionTracks {
   width: 100vw;
@@ -153,7 +153,7 @@
 }
 @media (min-width: 1101px) {
   .textBoundaries {
-    width: 40vw;
+    width: 35vw;
     margin: auto;
     padding-left: 0rem;
   }
@@ -192,8 +192,7 @@
   margin-right: 5rem;
 }
 .trackTitle {
-  padding-left: 0rem;
-  padding-right: 0rem;
+  padding: 0 0 1.5rem 0;
   font-size: 3rem;
   text-align: center;
   margin: auto;
@@ -243,8 +242,9 @@
   left: 10vw;
   padding-bottom: 5vh;
 }
-.noPadding {
+.registerTitle {
   padding-left: 0;
+  width: 50vw;
 }
 #clouds2Img {
   position: relative;
@@ -278,8 +278,9 @@
 }
 .sectionTitle {
   margin: auto;
-  padding-left: 0rem;
+  padding: 0 0 3rem 0;
   text-align: center;
+  font-size: 60px;
 }
 .registerButton {
   display: flex;
@@ -296,37 +297,35 @@
   object-fit: cover;
 }
 #signsImg {
-  position: relative;
-  width: 40vw;
-  top: -27vh;
-  right: -20vw;
+  position: absolute;
+  width: 50vw;
+  transform: translate(20%, -40%);
   height: auto;
   object-fit: cover;
 }
-@media (max-width: 399px) {
+@media (max-width: 509px) {
   #signsImg {
-    width: 80vw;
-    top: -10vh;
-    right: -10vw;
+    width: 60vw;
+    transform: translate(-100%, 10%);
   }
   #ticketsImg {
     width: 40vw;
     height: auto;
-    right: -30vw;
-    bottom: -5vh;
+    right: 0vw;
+    top: 120vh;
+    visibility: hidden;
   }
 }
-@media (max-width: 700px) and (min-width: 400px) {
+@media (max-width: 700px) and (min-width: 510px) {
   #signsImg {
-    width: 80vw;
-    top: -20vh;
-    right: -10vw;
+    width: 50vw;
+    transform: translate(-110%, 20%);
   }
   #ticketsImg {
     width: 40vw;
     height: auto;
-    right: -30vw;
-    bottom: -5vh;
+    right: 0vw;
+    top: 95vh;
   }
   #luggageImg {
     width: 80vw;

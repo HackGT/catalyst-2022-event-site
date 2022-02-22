@@ -21,43 +21,36 @@ function MainPage() {
           <img src="/img/plane_crop.png" alt="plane going zoom" id={styles.planeImg} />
         </section>
         <section className={styles.sectionAbout}>
-          <div>
-            <h3>About Your Trip</h3>
-            <p>
-              HexLabs presents Catalyst, a day of STEAM-related activities directed toward high
-              school students all throughout Georgia! This will be an opportunity for participants
-              to:
-            </p>
-            <ul>
-              <li>Learn about the world of STEAM and Computer Science as a career path</li>
-              <li>Gain insight into impactful, widely-known technology companies</li>
-              <li>Receive mentorship from college students and other industry professionals</li>
-              <li>
-                Connect with opportunities at Georgia Tech to further their education and exposure
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>Are You a Current Georgia Tech Student?</h3>
-            <p>
-              If so, {`you're`} still able to participate in the event! Each year, GT students
-              volunteer as mentors to help facilitate the projects and activities included in each
-              available track. This is an opportunity for you to directly interact with high school
-              students across Georgia, provide helpful knowledge to aspiring minds, and share your
-              passion for computer science and engineering. The core responsibilities of mentors
-              include:
-            </p>
-            <ul>
-              <li>Co-leading a student cohort</li>
-              <li>Encouraging mentees to network within cohorts</li>
-              <li>Inspiring mentees to learn both during and after the event</li>
-              <li>Arriving on-time and staying throughout the duration of the event</li>
-            </ul>
-            <p>Mentor registration is opening soon! </p>
-          </div>
-          <div>
-            <img src="/img/Ticket.png" alt="tickets" id={styles.ticketsImg} />
-          </div>
+          <h3>About Your Trip</h3>
+          <p>
+            HexLabs presents Catalyst, a day of STEAM-related activities directed toward high school
+            students all throughout Georgia! This will be an opportunity for participants to:
+          </p>
+          <ul>
+            <li>Learn about the world of STEAM and Computer Science as a career path</li>
+            <li>Gain insight into impactful, widely-known technology companies</li>
+            <li>Receive mentorship from college students and other industry professionals</li>
+            <li>
+              Connect with opportunities at Georgia Tech to further their education and exposure
+            </li>
+          </ul>
+          <h3>Are You a Current Georgia Tech Student?</h3>
+          <p>
+            If so, {`you're`} still able to participate in the event! Each year, GT students
+            volunteer as mentors to help facilitate the projects and activities included in each
+            available track. This is an opportunity for you to directly interact with high school
+            students across Georgia, provide helpful knowledge to aspiring minds, and share your
+            passion for computer science and engineering. The core responsibilities of mentors
+            include:
+          </p>
+          <ul>
+            <li>Co-leading a student cohort</li>
+            <li>Encouraging mentees to network within cohorts</li>
+            <li>Inspiring mentees to learn both during and after the event</li>
+            <li>Arriving on-time and staying throughout the duration of the event</li>
+          </ul>
+          <p>Mentor registration is opening soon! </p>
+          <img src="/img/Ticket.png" alt="tickets" id={styles.ticketsImg} />
         </section>
         <section className={styles.sectionGoals}>
           <div className={styles.sectionDuring}>
@@ -158,7 +151,7 @@ function MainPage() {
           </div>
 
           <div className={styles.rectangle}>
-            <h3 className={styles.noPadding}>Book Your Ticket</h3>
+            <h3 className={styles.registerTitle}>Book Your Ticket</h3>
             <p className={styles.marginText}>
               Registration is FREE and is open <b>NOW</b> at horizons.hack.gt
               <br></br>and closes on <b>April 2nd.</b>
