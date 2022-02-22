@@ -155,12 +155,6 @@
     padding-left: 2rem;
     padding-right: 0rem;
   }
-  .textBoundaries {
-    width: 80vw;
-  }
-  .trackTitle {
-    width: 100vw;
-  }
   .marginText {
     padding: 0 !important;
     margin: 0 !important;
@@ -170,6 +164,13 @@
   }
   .button {
     margin-bottom: 0 !important;
+  }
+  .trackTitle {
+    width: 80vw;
+    padding-left: 2rem;
+    padding-right: 0rem;
+    font-size: 2rem;
+    text-align: left;
   }
 }
 .column {
@@ -186,10 +187,10 @@
   padding-right: 0rem;
 }
 .trackTitle {
-  padding-left: 0rem;
+  padding-left: 2rem;
   padding-right: 0rem;
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
 }
 .rectangle {
   position: relative;

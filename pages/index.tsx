@@ -40,11 +40,12 @@ function MainPage() {
           <div>
             <h3>Are You a Current Georgia Tech Student?</h3>
             <p>
-              If so, you're still able to participate in the event! Each year, GT students volunteer
-              as mentors to help facilitate the projects and activities included in each available
-              track. This is an opportunity for you to directly interact with high school students
-              across Georgia, provide helpful knowledge to aspiring minds, and share your passion
-              for computer science and engineering. The core responsibilities of mentors include:
+              If so, {`you're`} still able to participate in the event! Each year, GT students
+              volunteer as mentors to help facilitate the projects and activities included in each
+              available track. This is an opportunity for you to directly interact with high school
+              students across Georgia, provide helpful knowledge to aspiring minds, and share your
+              passion for computer science and engineering. The core responsibilities of mentors
+              include:
             </p>
             <ul>
               <li>Co-leading a student cohort</li>
@@ -68,8 +69,8 @@ function MainPage() {
               that encourages students to think critically and creatively. Additionally, there will
               be opportunities for students to engage and connect with various industry
               professionals and college students. We want to show high school students the value of
-              computer science, which is why we are providing all of the resources you'll need to
-              get started!
+              computer science, which is why we are providing all of the resources {`you'll`} need
+              to get started!
             </p>
           </div>
           <h3>NEW: Catalyst Cohort</h3>
@@ -190,7 +191,7 @@ function MainPage() {
             High school students from all across Georgia are welcome to register.
           </div>
           <div className={styles.question}>Where is Catalyst?</div>
-          <div className={styles.answer}>We'll be waiting for you at the ADD LOCATION HERE</div>
+          <div className={styles.answer}>{`We'll be waiting for you at TBD`}</div>
           <div className={styles.question}>Do I need to bring anything to the learn-a-thon?</div>
           <div className={styles.answer}>
             Nope! We will provide food for every participant and laptops when necessary.
@@ -202,7 +203,8 @@ function MainPage() {
           </div>
           <div className={styles.question}>How do I choose which track to attend?</div>
           <div className={styles.answer}>
-            During registration, students will be allowed to choose which of the four tracks they'd
+            During registration, students will be allowed to choose which of the four tracks{" "}
+            {`they'd`}
             like to attend. For more information regarding each option, see either
             the Tracks section above or reference the registration application.
           </div>
@@ -224,7 +226,7 @@ function MainPage() {
             <u>
               <a href="mailto: hello@hexlabs.org">hello@hexlabs.org</a>
             </u>
-             and we'll be happy to help!
+             and {`we'll`} be happy to help!
           </p>
         </section>
         <footer className={styles.sectionFooter}>
