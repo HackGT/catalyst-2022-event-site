@@ -94,6 +94,7 @@ function MainPage() {
           <p>You can apply for the cohort when completing registration!</p>
           <img src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
           <img src="/img/signs.png" alt="signs" id={styles.signsImg} />
+          <img src="/img/Clouds.png" alt="fluffy cloud" id={styles.cloud1Img} />
         </section>
         <section className={styles.sectionTracks}>
           <div>
