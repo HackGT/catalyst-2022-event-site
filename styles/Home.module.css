@@ -178,8 +178,14 @@
   }
   .button {
     margin-bottom: 0 !important;
+    margin-right: 2rem;
   }
   .trackTitle {
+  }
+}
+@media (max-width: 800px) {
+  .button {
+    margin-right: 10px;
   }
 }
 .column {
@@ -222,6 +228,7 @@
   border-radius: 12px;
   margin-top: 1.5rem;
   margin-bottom: 3rem;
+  letter-spacing: 0.096em;
 }
 .scheduleTitle {
   margin: auto;
