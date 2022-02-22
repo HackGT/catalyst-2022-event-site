@@ -6,166 +6,101 @@
   font-family: Calama;
   src: url("Calama_new.ttf");
 }
+.gradientBackground {
+  background-image: linear-gradient(#93bbbf, #bdb2b4, #f2a7a7, #f2a7a7, #f4b3a1, #f8cf91);
+}
+
+.sectionIntro {
+  width: 100vw;
+  height: 60vw;
+  background: linear-gradient(
+    180deg,
+    rgba(147, 187, 191, 1) 0%,
+    rgba(147, 187, 191, 0.37) 95%,
+    rgba(147, 187, 191, 0.37) 100%
+  );
+  z-index: 0;
+}
 .title {
-  position:absolute;
+  position: relative;
+  top: 4vh;
   width: 50vw;
   height: 50vw;
-  left: 25vw;
-  vertical-align: top;
+  margin: auto;
   font-family: Calama;
   font-weight: normal;
-  font-size: 350px;
-  line-height: 280px;
+  font-size: 20vw;
   text-align: center;
   letter-spacing: 0.105em;
   color: #000000;
+  z-index: 2;
 }
 .description {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  left: 23vw;
-  top: 40vh;
-
+  position: relative;
+  margin: auto;
+  top: -9ex;
+  left: -2.5ex;
   font-family: Roboto;
   font-style: italic;
   font-weight: normal;
-  font-size: 64px;
+  font-size: 5vw;
   line-height: 75px;
   text-align: center;
   letter-spacing: 0.105em;
-
   color: #000000;
+  z-index: 2;
 }
-.gradientBackground {
-  background-image: linear-gradient(#93BBBF, #BDB2B4, #F2A7A7, #F2A7A7, #F4B3A1, #F8CF91);
-}
-.sectionIntro {
-  display: flex;
-  width: 100vw;
-  height: 120vh;
-  top: 0px;
-  left: 0px;
-  background: #93BBBF;
-}
- .sectionAbout {
+#planeImg {
   position: absolute;
+  top: 2em;
   width: 100vw;
-  height: 150vh;
-  left: 0px;
-  top: 120vh;
-  background: linear-gradient(180deg, rgba(147, 187, 191, 0.37) -8.24%, rgba(189, 178, 180, 0.42) 18.46%, #F2A7A7 100%);
+  height: auto;
+  z-index: 1;
+}
+.sectionAbout {
+  padding-top: 5vh;
+  width: 100vw;
+  height: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(147, 187, 191, 0.37) -8.24%,
+    rgba(189, 178, 180, 0.42) 18.46%,
+    #f2a7a7 100%
+  );
+}
+#ticketsImg {
+  position: absolute;
+  width: 40vw;
+  height: auto;
+  right: 2vw;
+  top: 175vh;
+  z-index: 1;
 }
 .sectionGoals {
-  position: absolute;
   width: 100vw;
-  height: 330vh;
-  left: 0px;
-  top: 270vh;
-  background: linear-gradient(180deg,#93BBBF, #BDB2B4, #F2A7A7 0%, #F4B3A1 23.96%, #F8CF91 100%);
-} 
+  height: auto;
+  background: linear-gradient(180deg, #f2a7a7 0%, #f4b3a1 23.96%, #f8cf91 100%);
+}
+.sectionDuring {
+  padding: 3rem 0 5rem 0;
+}
 .sectionTracks {
-  position: absolute;
   width: 100vw;
   height: auto;
-  left: 0px;
-  top: 590vh;
-  background: linear-gradient(180deg, #F8CF91 0%, #EF9C67 76.04%, #E76C3F 100%);
-} 
+  padding: 0 0 20vh 0;
+  background: linear-gradient(180deg, #f8cf91 0%, #ef9c67 76.04%, #e76c3f 100%);
+}
 .sectionSchedule {
-  position: absolute;
   width: 100vw;
   height: auto;
+  padding: 20vh 0 20vh 0;
   left: 0px;
-  top: 931vh;
-  background: linear-gradient(180deg, #E76C3F 73.44%, #EDC17F 100%);
+  background: linear-gradient(180deg, #e76c3f 50.44%, #edc17f 100%);
 }
 .sectionFAQ {
-  position: absolute;
   width: 100vw;
   height: auto;
-  left: 0px;
-  top: 1088vh;
-  background: #EDC17F;
-}
-.sectionFooter {
-  position: absolute;
-  width: 100vw;
-  height: auto;
-  left: 0px;
-  bottom: 0px;
-  z-index: 0;
-  top: 1290vh;
-}
-#sectionCohort{
-  position: absolute;
-  top: 80vh;
-}
-.socials {
-  z-index: 1000;
-  margin-right: 3rem;
-  position: relative;
-  transform: translateY(calc(-1 * 85px));
-  float: right;
-}
-.imageMargin {
-  margin-left: 0.5rem;
-}
-.row {
-  display: flex;
-}
-.column {
-  flex: 50%;
-}
-.centerText {
-  text-align: center;
-}
-.marginText {
-  width: auto;
-  margin-right: 5rem;
-}
-.leftTextBoundaries {
-  padding-left: 10rem;
-}
-.rightTextBoundaries {
-  padding-right: 10rem;
-}
-.rectangle {
-  margin: auto;
-  width: 50%;
-  margin-top: 12rem;
-  margin-bottom: 12rem;
-  border-radius: 25px;
-  background: #F2BBA7;
-  padding: 20px;
-  text-align: center;
-  width: 80vw;
-  height: auto;
-}
-.button {
-  background-color: #F28F6B;
-  border: none;
-  color: white;
-  padding: 20px;
-  font-size: 3rem;
-  font-family: Calama;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 12px;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
-}
-.scheduleTitle {
-  margin-top: 30rem;
-  color: white;
-  text-align: center;
-  width: auto
-}
-.scheduleDesc {
-  color: white;
-  text-align: center;
-  width: auto;
+  background: #edc17f;
 }
 .question {
   margin: auto;
@@ -175,7 +110,7 @@
   align-items: center;
   color: black;
   text-align: center;
-  background: #F8CF91;
+  background: #f8cf91;
   font-size: 1.2rem;
   font-family: Roboto;
   padding: 24px 24px;
@@ -189,7 +124,7 @@
   width: 75%;
   margin: auto;
   position: relative;
-  background: #ECAF55;
+  background: #ecaf55;
   border-radius: 30px;
   font-family: Roboto;
   font-size: 1rem;
@@ -199,62 +134,133 @@
   z-index: 0;
   text-align: left;
 }
+.sectionFooter {
+  width: 100vw;
+  z-index: 0;
+}
+.socials {
+  z-index: 1000;
+  margin-right: 2rem;
+  position: relative;
+  bottom: 4rem;
+  float: right;
+}
+.imageMargin {
+  margin-left: 0.5rem;
+}
+.row {
+  display: flex;
+}
+@media (min-width: 1101px) {
+  .textBoundaries {
+    width: 35vw;
+    margin: auto;
+    padding-left: 0rem;
+  }
+  .trackTitle {
+    width: 30vw;
+    line-height: 3.5rem;
+  }
+}
+@media (max-width: 1100px) {
+  .row {
+    display: inline;
+  }
+  .textBoundaries {
+    width: 80vw;
+  }
+  .marginText {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .registerButton {
+    display: block !important;
+  }
+  .button {
+    margin-bottom: 0 !important;
+  }
+  .trackTitle {
+  }
+}
+.column {
+  width: auto;
+  justify-content: flex-start;
+  flex: 30%;
+}
+.marginText {
+  width: auto;
+  margin-right: 5rem;
+}
+.trackTitle {
+  padding: 0 0 1.5rem 0;
+  font-size: 3rem;
+  text-align: center;
+  margin: auto;
+}
+.rectangle {
+  position: relative;
+  width: 50vw;
+  height: auto;
+  margin: auto;
+  margin-top: 12rem;
+  border-radius: 25px;
+  background: #f2bba7;
+  padding: 10vh;
+  text-align: center;
+}
+
+.button {
+  background-color: #f28f6b;
+  border: none;
+  color: white;
+  padding: 1rem;
+  font-size: 3rem;
+  font-family: Calama;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+.scheduleTitle {
+  margin: auto;
+  color: white;
+  text-align: center;
+  width: auto;
+}
+.scheduleDesc {
+  margin: auto;
+  color: white;
+  text-align: center;
+  width: auto;
+}
 .contactText {
   font-family: Roboto;
   width: 75%;
   font-size: 1rem;
-  margin-left: 6.5rem;
-  margin-top: 3rem;
-  margin-bottom: 30rem;
+  left: 10vw;
+  padding-bottom: 5vh;
 }
-.noPadding {
+.registerTitle {
   padding-left: 0;
-}
-#planeImg{
-  position: absolute;
-  object-fit: cover;
-  top: 30vh;
-  width: 100vw;
-  height: 90vh;
-}
-#ticketsImg{
-  float: right;
-  width:50vw;
-  height:auto;
-  top: 76.2vh;
-  /* align-items: right; */
-}
-#luggageImg{
-  float:right;
-  top: 0vh;
-  width:50vw;
-  height:auto;
-}
-#signsImg{
-  float:right;
-  top: 0vh;
-  width:50vw;
-  height:auto;
-  margin-left:40rem;
-  /* margin-left: 40rem;
-  float: inline-end;
   width: 50vw;
-  height:auto; */
 }
 #clouds2Img {
+  position: relative;
   float: right;
-  width: 25vw;
+  width: 30vw;
   height: auto;
-  margin-bottom: 8rem;
-  margin-right: 8rem;
+  bottom: 10vh;
+  right: 7vw;
   transform: rotate(10deg);
 }
 #passportImg {
-  float: left;
+  position: relative;
   width: 25vw;
   height: auto;
-  margin-top: 5rem;
-  margin-left: 10rem;
+  bottom: 30vh;
+  left: 10vw;
   transform: rotate(30deg);
 }
 #footerImg {
@@ -262,12 +268,103 @@
   height: auto;
 }
 #mapImg {
-  float: right;
+  position: relative;
+  right: -40vw;
   width: 25vw;
   height: auto;
-  margin-bottom: 10rem;
-  margin-right: 5rem;
 }
 #tracksTitle {
   text-align: center;
+}
+.sectionTitle {
+  margin: auto;
+  padding: 0 0 3rem 0;
+  text-align: center;
+  font-size: 60px;
+}
+.registerButton {
+  display: flex;
+  gap: 1vw;
+  margin: auto;
+  justify-content: center;
+}
+#luggageImg {
+  position: relative;
+  width: 40vw;
+  right: -55vw;
+  top: -100vh;
+  height: auto;
+  object-fit: cover;
+}
+#signsImg {
+  position: absolute;
+  width: 50vw;
+  transform: translate(20%, -40%);
+  height: auto;
+  object-fit: cover;
+}
+@media (max-width: 509px) {
+  #signsImg {
+    width: 60vw;
+    transform: translate(-100%, 10%);
+  }
+  #ticketsImg {
+    width: 40vw;
+    height: auto;
+    right: 0vw;
+    top: 120vh;
+    visibility: hidden;
+  }
+}
+@media (max-width: 700px) and (min-width: 510px) {
+  #signsImg {
+    width: 50vw;
+    transform: translate(-110%, 20%);
+  }
+  #ticketsImg {
+    width: 40vw;
+    height: auto;
+    right: 0vw;
+    top: 95vh;
+  }
+  #luggageImg {
+    width: 80vw;
+    right: -15vw;
+    top: -120vh;
+    visibility: hidden;
+  }
+}
+@media (max-width: 700px) {
+  .rectangle {
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    margin-top: 12rem;
+    margin-bottom: 5vh;
+    background: #f2bba7;
+    padding: 5vh 10vw 5vh 10vw;
+    text-align: center;
+  }
+  #clouds2Img {
+    width: 40vw;
+    bottom: -5vh;
+    right: 7vw;
+    transform: rotate(10deg);
+  }
+  #passportImg {
+    width: 45vw;
+    bottom: 50vh;
+    left: 5vw;
+  }
+  #mapImg {
+    right: 15vw;
+    width: 50vw;
+    bottom: -10vh;
+  }
+  #luggageImg {
+    width: 80vw;
+    right: -15vw;
+    top: -160vh;
+    visibility: hidden;
+  }
 }

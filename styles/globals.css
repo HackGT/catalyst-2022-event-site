@@ -1,40 +1,68 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h3{
-  padding-left: 11vw;
+html {
+  margin-bottom: 0 !important;
+  display: flex;
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+
+h3 {
+  padding-left: 10vw;
+  padding-bottom: 0.3em;
   font-family: Calama;
   font-weight: normal;
-  font-size: 72px;
-  line-height: 70px;
-  letter-spacing: 0.105em;
+  font-size: 40px;
+  width: 50vw;
+  line-height: 40px;
+  letter-spacing: 0.11em;
   color: #000000;
 }
+@media (max-width: 500px) {
+  h3 {
+    width: 80vw;
+  }
+}
 
-ul,p{
+ul {
   justify-content: left;
-  width: 50vw;
-  padding-left: 11vw;
+  width: 40vw;
+  padding-left: 10vw;
+  padding-bottom: 1em;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 15px;
+  line-height: 25px;
   letter-spacing: 0.105em;
   color: #000000;
-    
+}
+
+p {
+  justify-content: left;
+  width: 40vw;
+  padding-left: 10vw;
+  padding-bottom: 1em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+@media (max-width: 700px) {
+  ul,
+  p {
+    width: 80vw;
+    line-height: 21px;
+  }
 }
