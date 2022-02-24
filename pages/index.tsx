@@ -180,6 +180,8 @@ function MainPage() {
         </section>
         <section className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
+          <div className={styles.question}>When is the Catalyst Learn-a-thon?</div>
+          <div className={styles.answer}>April 9th, 2022!</div>
           <div className={styles.question}>Who can attend?</div>
           <div className={styles.answer}>
             High school students from all across Georgia are welcome to register.
