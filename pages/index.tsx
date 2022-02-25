@@ -24,7 +24,8 @@ function MainPage() {
           <h3>About Your Trip</h3>
           <p>
             HexLabs presents Catalyst, a day of STEM-related activities directed toward high school
-            students all throughout Georgia! This will be an opportunity for participants to:
+            students all throughout Georgia! We hope to see you on <b>Saturday, April 9th</b> at
+            Georgia Tech! This will be an opportunity for participants to:
           </p>
           <ul>
             <li>Learn about the world of STEM and Computer Science as a career path</li>
