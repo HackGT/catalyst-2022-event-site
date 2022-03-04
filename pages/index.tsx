@@ -158,7 +158,7 @@ function MainPage() {
               Registration is FREE and is open <b>NOW</b> below
               <br></br>and closes on <b>April 2nd.</b>
               <br></br>
-              Cohort interest will be accepted until March 2nd.{" "}
+              Cohort interest will be accepted until March 10th.{" "}
             </p>
             <div className={styles.registerButton}>
               <a href="https://forms.gle/WLRq9B6AkmdU1fxaA" className={styles.button}>
