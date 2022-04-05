@@ -47,7 +47,7 @@ function MainPage() {
           <ul>
             <li>Co-leading a student cohort</li>
             <li>Encouraging mentees to network within cohorts</li>
-            <li>Inspiring mentees to learn both during and after the event</li>
+            <li>Inspiring mentees to learn both during and after the event</li>
             <li>Arriving on-time and staying throughout the duration of the event</li>
           </ul>
           <p>Mentor registration is opening soon! </p>
@@ -155,19 +155,10 @@ function MainPage() {
           <div className={styles.rectangle}>
             <h3 className={styles.registerTitle}>Book Your Ticket</h3>
             <p className={styles.marginText}>
-              Registration is FREE and is open <b>NOW</b> below
-              <br></br>and closes on <b>April 2nd.</b>
-              <br></br>
-              Cohort interest will be accepted until <b>March 9th.</b>{" "}
+              Catalyst will be accepting walk-in admissions. Registration is not required, so bring
+              your friends! See you at The Klaus Advanced Computing Building on Georgia
+              {` Tech's`} campus on Saturday, April 9th at 8am!
             </p>
-            <div className={styles.registerButton}>
-              <a href="https://forms.gle/WLRq9B6AkmdU1fxaA" className={styles.button}>
-                Participants
-              </a>
-              <a href="https://forms.gle/G8A94VQQP2MSoXJi9" className={styles.button}>
-                Mentors
-              </a>
-            </div>
           </div>
           <img src="/img/Clouds 2.png" alt="clouds" id={styles.clouds2Img} />
         </section>
