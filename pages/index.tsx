@@ -155,9 +155,9 @@ function MainPage() {
           <div className={styles.rectangle}>
             <h3 className={styles.registerTitle}>Book Your Ticket</h3>
             <p className={styles.marginText}>
-              Catalyst will be accepting walk-in admissions. Registration is not required, so bring
-              your friends! See you at The Klaus Advanced Computing Building on Georgia
-              {` Tech's`} campus on Saturday, April 9th at 8am!
+              Catalyst will be accepting <b>walk-in admissions</b>. Registration is not required, so
+              bring your friends! See you at <b>The Klaus Advanced Computing Building</b> on Georgia
+              {` Tech's`} campus on <b>Saturday, April 9th at 8am</b>!
             </p>
           </div>
           <img src="/img/Clouds 2.png" alt="clouds" id={styles.clouds2Img} />
