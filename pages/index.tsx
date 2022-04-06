@@ -163,12 +163,54 @@ function MainPage() {
           <img src="/img/Clouds 2.png" alt="clouds" id={styles.clouds2Img} />
         </section>
         <section className={styles.sectionSchedule}>
-          <h3 className={styles.scheduleTitle}>Schedule - COMING SOON!</h3>
-          <p className={styles.scheduleDesc}>
-            *subject to change as details arrive and<br></br> will be updated accordingly
-          </p>
-          <img src="/img/passport.png" alt="passport" id={styles.passportImg} />
-          <img src="/img/map.png" alt="map" id={styles.mapImg} />
+          <div className={styles.scheduleTitle}>Schedule</div>
+          <table className={styles.scheduleTable}>
+            <tr>
+              <th>8:30 AM</th>
+              <th>Klaus 1443</th>
+              <th>Mentor Check-in and Briefing</th>
+            </tr>
+            <tr>
+              <th>9:30 AM</th>
+              <th>Klaus Atrium</th>
+              <th>Opening Ceremony</th>
+            </tr>
+            <tr>
+              <th>10:00 AM</th>
+              <th>Klaus Classrooms</th>
+              <th>Track Block 1</th>
+            </tr>
+            <tr>
+              <th>11:30 AM</th>
+              <th>Klaus Atrium</th>
+              <th>Lunch and Panel</th>
+            </tr>
+            <tr>
+              <th>12:30 PM</th>
+              <th>Klaus Classrooms</th>
+              <th>Track Block 2</th>
+            </tr>
+            <tr>
+              <th>2:00 PM</th>
+              <th>Klaus Atrium</th>
+              <th>Exploration Fair</th>
+            </tr>
+            <tr>
+              <th>3:00 PM</th>
+              <th>Klaus Classrooms</th>
+              <th>Track Block 3</th>
+            </tr>
+            <tr>
+              <th>4:00 PM</th>
+              <th>Klaus Atrium</th>
+              <th>Dinner</th>
+            </tr>
+            <tr>
+              <th>5:00 PM</th>
+              <th>Klaus Atrium</th>
+              <th>Closing Ceremony</th>
+            </tr>
+          </table>
         </section>
         <section className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>

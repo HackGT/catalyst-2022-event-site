@@ -97,6 +97,37 @@
   left: 0px;
   background: linear-gradient(180deg, #e76c3f 50.44%, #edc17f 100%);
 }
+
+.scheduleTable {
+  color:white;
+  margin:auto;
+  font-family: Roboto;
+  font-weight: normal;
+  /* border: 1px, 1px, 1px, 1px;
+  border-color: white;
+  border-style: solid; */
+  padding: 2rem;
+  text-align: left;
+}
+.scheduleDesc {
+  margin: auto;
+  color: white;
+  text-align: center;
+  width: auto;
+}
+
+.scheduleTitle {
+  color: white;
+  text-align: center;
+  width: auto;
+  margin:auto;
+  font-family: Calama;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  letter-spacing: .07em;
+  text-align: center;
+}
+
 .sectionFAQ {
   width: 100vw;
   height: auto;
@@ -230,18 +261,7 @@
   margin-bottom: 3rem;
   letter-spacing: 0.096em;
 }
-.scheduleTitle {
-  margin: auto;
-  color: white;
-  text-align: center;
-  width: auto;
-}
-.scheduleDesc {
-  margin: auto;
-  color: white;
-  text-align: center;
-  width: auto;
-}
+
 .contactText {
   font-family: Roboto;
   width: 75%;

@@ -30,6 +30,9 @@ h3 {
   h3 {
     width: 80vw;
   }
+  tr {
+    padding-left: 19rem;
+  }
 }
 
 ul {
@@ -65,4 +68,14 @@ p {
     width: 80vw;
     line-height: 21px;
   }
+  th {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+th {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
 }
