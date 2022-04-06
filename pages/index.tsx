@@ -167,6 +167,11 @@ function MainPage() {
           <table className={styles.scheduleTable}>
             <tr>
               <th>8:30 AM</th>
+              <th>Klaus Parking Deck</th>
+              <th>Drop Off</th>
+            </tr>
+            <tr>
+              <th>8:30 AM</th>
               <th>Klaus 1443</th>
               <th>Mentor Check-in and Briefing</th>
             </tr>
@@ -209,6 +214,11 @@ function MainPage() {
               <th>5:00 PM</th>
               <th>Klaus Atrium</th>
               <th>Closing Ceremony</th>
+            </tr>
+            <tr>
+              <th>6:30 PM</th>
+              <th>Klaus Atrium</th>
+              <th>Pick Up</th>
             </tr>
           </table>
         </section>
