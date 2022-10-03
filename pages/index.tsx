@@ -24,8 +24,9 @@ function MainPage() {
           <h3>About Your Trip</h3>
           <p>
             HexLabs presents Catalyst, a day of STEM-related activities directed toward high school
-            students all throughout Georgia! We hope to see you on <b>Saturday, April 9th</b> at
-            Georgia Tech! This will be an opportunity for participants to:
+            students all throughout Georgia! We hope to see you on <b>Saturday, November 5th</b> and{" "}
+            <b>Saturday, November 12th</b> at Georgia Tech! This will be an opportunity for
+            participants to:
           </p>
           <ul>
             <li>Learn about the world of STEM and Computer Science as a career path</li>
@@ -35,36 +36,16 @@ function MainPage() {
               Connect with opportunities at Georgia Tech to further their education and exposure
             </li>
           </ul>
-          <h3>Are You a Current Georgia Tech Student?</h3>
-          <p>
-            If so, {`you're`} still able to participate in the event! Each year, GT students
-            volunteer as mentors to help facilitate the projects and activities included in each
-            available track. This is an opportunity for you to directly interact with high school
-            students across Georgia, provide helpful knowledge to aspiring minds, and share your
-            passion for computer science and engineering. The core responsibilities of mentors
-            include:
-          </p>
-          <ul>
-            <li>Co-leading a student cohort</li>
-            <li>Encouraging mentees to network within cohorts</li>
-            <li>Inspiring mentees to learn both during and after the event</li>
-            <li>Arriving on-time and staying throughout the duration of the event</li>
-          </ul>
-          <p>Mentor registration is opening soon! </p>
           <img src="/img/Ticket.png" alt="tickets" id={styles.ticketsImg} />
         </section>
         <section className={styles.sectionGoals}>
           <div className={styles.sectionDuring}>
             <h3>During the Day</h3>
             <p>
-              Throughout the day, students will have the opportunity to follow one of four
-              tracks:Web Development, Product Development & Entrepreneurship, Data Science & AI, or
-              Cybersecurity. Each track consists of interactive workshops and curriculum that
-              encourages students to think critically and creatively. Additionally, there will be
-              opportunities for students to engage and connect with various industry professionals
-              and college students. We want to show high school students the value of computer
-              science, which is why we are providing all of the resources {`you'll`} need to get
-              started!
+              Throughout the day, there will opportunities for students to engage and connect with
+              various industry professionals and college students. We want to show high school
+              students the value of computer science, which is why we are providing all of the
+              resources {`you'll`} need to get started!
             </p>
           </div>
           <h3>NEW: Catalyst Cohort</h3>
@@ -99,133 +80,28 @@ function MainPage() {
         </section>
         <section className={styles.sectionTracks}>
           <div>
-            <h3 className={styles.sectionTitle}>Tracks</h3>
-            <div className={styles.row}>
-              <div className={styles.column}>
-                <h3 className={styles.trackTitle}>Web Development</h3>
-                <p className={styles.textBoundaries}>
-                  Want to learn about the technologies core to the internet? Then Web Development is
-                  for you. This track will teach you the fundamentals of HTML, CSS, and JavaScript
-                  so you can build your own website.<br></br>
-                  Students will be given the opportunity to host their websites via GitHub Pages and
-                  learn about the basics of how websites function and interact with the world
-                </p>
-              </div>
-              <div className={styles.column}>
-                <h3 className={styles.trackTitle}>Cybersecurity</h3>
-                <p className={styles.textBoundaries}>
-                  Have you ever wondered how we protect our information on the Internet? If so, the
-                  cybersecurity track is right for you! In the cybersecurity track, students will
-                  have the ability to learn more about authentication, protocols, Linux, and more!
-                  Additionally, students will get exposure to some of the basics behind ethical
-                  hacking and even get the opportunity to dabble in cryptography. After this
-                  experience, students will have exposure to the basic cybersecurity protocols used
-                  in our everyday lives.
-                </p>
-              </div>
-            </div>
-            <div className={styles.row}>
-              <div className={styles.column}>
-                <h3 className={styles.trackTitle}>Data Science & Artificial Intelligence</h3>
-                <p className={styles.textBoundaries}>
-                  Do you ever wonder how things like Netflix recommendations and Spotify playlists
-                  are made? Are you a technical person and like learning about what goes on in the
-                  background? If so, you should consider the ML track!<br></br>
-                  In this track, you will learn how concepts like Data Science and AI come together
-                  to create Machine Learning based products! Things like data integration, learning
-                  models, and information recognition will become much less foreign to you after
-                  going through this track.
-                </p>
-              </div>
-              <div className={styles.column}>
-                <h3 className={styles.trackTitle}>Product Design & Entrepreneurship</h3>
-                <p className={styles.textBoundaries}>
-                  Have you ever dreamt of starting your own business? Are you a creative thinker and
-                  a problem solver? Then the Product Development and Entrepreneurship track is for
-                  you!<br></br>
-                  With this track you will be able to brainstorm products, work around the risks
-                  that go into creating a new product and simulate the process of product creation
-                  from ideation to execution. You will see the versatility of computer science and
-                  how it intertwines with the business world.
-                </p>
-              </div>
-            </div>
+            {/* do not remove this, otherwise there will be random whitespace */}
+            <h3 className={styles.sectionTitle}></h3>
+            <div className={styles.row}></div>
+            <div className={styles.row}></div>
           </div>
-
-          <div className={styles.rectangle}>
-            <h3 className={styles.registerTitle}>Book Your Ticket</h3>
-            <p className={styles.marginText}>
-              Catalyst will be accepting <b>walk-in admissions</b>. Registration is not required, so
-              bring your friends! See you at <b>The Klaus Advanced Computing Building</b> on Georgia
-              {` Tech's`} campus on <b>Saturday, April 9th at 8am</b>!
-            </p>
-          </div>
+          <a href="https://forms.gle/g5jSKBEQKunmvug16" rel="noreferrer noopener" target="_blank">
+            <div className={styles.rectangle}>
+              <h3 className={styles.registerTitle}>Book Your Ticket</h3>
+              <p className={styles.marginText}>
+                Catalyst is accepting applications! We hope to see you at{" "}
+                <b>The Klaus Advanced Computing Building</b> on Georgia
+                {` Tech's`} campus on <b>Saturday, November 5th</b> and{" "}
+                <b>Saturday, November 12th</b>!
+              </p>
+            </div>
+          </a>
           <img src="/img/Clouds 2.png" alt="clouds" id={styles.clouds2Img} />
-        </section>
-        <section className={styles.sectionSchedule}>
-          <div className={styles.scheduleTitle}>Schedule</div>
-          <table className={styles.scheduleTable}>
-            <tr>
-              <th>8:30 AM</th>
-              <th>Klaus Parking Deck</th>
-              <th>Drop Off</th>
-            </tr>
-            <tr>
-              <th>8:30 AM</th>
-              <th>Klaus 1443</th>
-              <th>Mentor Check-in and Briefing</th>
-            </tr>
-            <tr>
-              <th>9:30 AM</th>
-              <th>Klaus Atrium</th>
-              <th>Opening Ceremony</th>
-            </tr>
-            <tr>
-              <th>10:00 AM</th>
-              <th>Klaus Classrooms</th>
-              <th>Track Block 1</th>
-            </tr>
-            <tr>
-              <th>11:30 AM</th>
-              <th>Klaus Atrium</th>
-              <th>Lunch and Panel</th>
-            </tr>
-            <tr>
-              <th>12:30 PM</th>
-              <th>Klaus Classrooms</th>
-              <th>Track Block 2</th>
-            </tr>
-            <tr>
-              <th>2:00 PM</th>
-              <th>Klaus Atrium</th>
-              <th>Exploration Fair</th>
-            </tr>
-            <tr>
-              <th>3:00 PM</th>
-              <th>Klaus Classrooms</th>
-              <th>Track Block 3</th>
-            </tr>
-            <tr>
-              <th>4:00 PM</th>
-              <th>Klaus Atrium</th>
-              <th>Dinner</th>
-            </tr>
-            <tr>
-              <th>5:00 PM</th>
-              <th>Klaus Atrium</th>
-              <th>Closing Ceremony</th>
-            </tr>
-            <tr>
-              <th>6:30 PM</th>
-              <th>Klaus Atrium</th>
-              <th>Pick Up</th>
-            </tr>
-          </table>
         </section>
         <section className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
           <div className={styles.question}>When is the Catalyst Learn-a-thon?</div>
-          <div className={styles.answer}>April 9th, 2022!</div>
+          <div className={styles.answer}>Saturday, November 5th and Saturday, November 12th.</div>
           <div className={styles.question}>Who can attend?</div>
           <div className={styles.answer}>
             High school students from all across Georgia are welcome to register.
@@ -240,13 +116,6 @@ function MainPage() {
           <div className={styles.question}>Are parents allowed to come?</div>
           <div className={styles.answer}>
             Although we are grateful for parental support, Catalyst is a student-only event.
-          </div>
-          <div className={styles.question}>How do I choose which track to attend?</div>
-          <div className={styles.answer}>
-            During registration, students will be allowed to choose which of the four tracks{" "}
-            {`they'd`}
-            like to attend. For more information regarding each option, see either
-            the Tracks section above or reference the registration application.
           </div>
           <div className={styles.question}>What is HexLabs?</div>
           <div className={styles.answer}>
