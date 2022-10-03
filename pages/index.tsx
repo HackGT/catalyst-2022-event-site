@@ -73,7 +73,7 @@ function MainPage() {
               projects
             </li>
           </ul>
-          <p>You can apply for the cohort when completing registration!</p>
+          <p>You can apply for the cohort below!</p>
           <img src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
           <img src="/img/signs.png" alt="signs" id={styles.signsImg} />
           <img src="/img/Clouds.png" alt="fluffy cloud" id={styles.cloud1Img} />
@@ -88,34 +88,30 @@ function MainPage() {
           <a href="https://forms.gle/g5jSKBEQKunmvug16" rel="noreferrer noopener" target="_blank">
             <div className={styles.rectangle}>
               <h3 className={styles.registerTitle}>Book Your Ticket</h3>
-              <p className={styles.marginText}>
-                Catalyst is accepting applications! We hope to see you at{" "}
-                <b>The Klaus Advanced Computing Building</b> on Georgia
-                {` Tech's`} campus on <b>Saturday, November 5th</b> and{" "}
-                <b>Saturday, November 12th</b>!
-              </p>
+              <p className={styles.marginText}>Catalyst is accepting applications!</p>
             </div>
           </a>
           <img src="/img/Clouds 2.png" alt="clouds" id={styles.clouds2Img} />
         </section>
         <section className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
-          <div className={styles.question}>When is the Catalyst Learn-a-thon?</div>
+          <div className={styles.question}>When will the cohort meet?</div>
           <div className={styles.answer}>Saturday, November 5th and Saturday, November 12th.</div>
-          <div className={styles.question}>Who can attend?</div>
+          <div className={styles.question}>Who can apply?</div>
           <div className={styles.answer}>
             High school students from all across Georgia are welcome to register.
           </div>
           <div className={styles.question}>Where is Catalyst?</div>
           <div className={styles.answer}>{`Catalyst will be held on Georgia Tech’s campus!`}</div>
-          <div className={styles.question}>Do I need to bring anything to the learn-a-thon?</div>
+          <div className={styles.question}>Do I need to bring anything to cohort meeting?</div>
           <div className={styles.answer}>
             Nope! We will provide food for every participant and laptops when necessary.
             Participants are welcome to bring their own devices.
           </div>
           <div className={styles.question}>Are parents allowed to come?</div>
           <div className={styles.answer}>
-            Although we are grateful for parental support, Catalyst is a student-only event.
+            Although we are grateful for parental support, Catalyst cohort meetings are student-only
+            events.
           </div>
           <div className={styles.question}>What is HexLabs?</div>
           <div className={styles.answer}>
