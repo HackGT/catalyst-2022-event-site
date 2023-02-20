@@ -18,13 +18,13 @@ html {
 h3 {
   padding-left: 10vw;
   padding-bottom: 0.3em;
-  font-family: Calama;
+  font-family: Fairy Cottage;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 50px;
   width: 50vw;
   line-height: 40px;
   letter-spacing: 0.11em;
-  color: #000000;
+  color: #FFBC39;
 }
 @media (max-width: 500px) {
   h3 {
@@ -38,15 +38,15 @@ h3 {
 ul {
   justify-content: left;
   width: 40vw;
-  padding-left: 10vw;
+  padding-left: 12vw;
   padding-bottom: 1em;
-  font-family: Roboto;
+  font-family: Georgia;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
   letter-spacing: 0.105em;
-  color: #000000;
+  color: rgb(255, 255, 255);
 }
 
 p {
@@ -54,13 +54,13 @@ p {
   width: 40vw;
   padding-left: 10vw;
   padding-bottom: 1em;
-  font-family: Roboto;
+  font-family: Georgia;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 25px;
   letter-spacing: 0.105em;
-  color: #000000;
+  color: rgb(255, 255, 255);
 }
 @media (max-width: 700px) {
   ul,

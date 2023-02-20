@@ -6,96 +6,149 @@
   font-family: Calama;
   src: url("Calama_new.ttf");
 }
-.gradientBackground {
-  background-image: linear-gradient(#93bbbf, #bdb2b4, #f2a7a7, #f2a7a7, #f4b3a1, #f8cf91);
+@font-face {
+  font-family: Fairy Cottage;
+  src: url("Fairy Cottage.ttf");
 }
+/* .gradientBackground {
+  background-image: linear-gradient(#93bbbf, #bdb2b4, #f2a7a7, #f2a7a7, #f4b3a1, #f8cf91);
+} */
 
 .sectionIntro {
   width: 100vw;
   height: 60vw;
-  background: linear-gradient(
-    180deg,
-    rgba(147, 187, 191, 1) 0%,
-    rgba(147, 187, 191, 0.37) 95%,
-    rgba(147, 187, 191, 0.37) 100%
-  );
+  background: #151046;
   z-index: 0;
-}
+} 
 .title {
   position: relative;
-  top: 4vh;
+  top: 1vw;
   width: 50vw;
   height: 50vw;
   margin: auto;
-  font-family: Calama;
+  font-family: Fairy Cottage;
   font-weight: normal;
-  font-size: 20vw;
+  font-size: 15vw;
   text-align: center;
-  letter-spacing: 0.105em;
-  color: #000000;
+  letter-spacing: -0.015em;
+  color: #FFBC39;
   z-index: 2;
 }
 .description {
   position: relative;
   margin: auto;
-  top: -9ex;
+  top: -6.5ex;
   left: -2.5ex;
   font-family: Roboto;
-  font-style: italic;
   font-weight: normal;
-  font-size: 5vw;
+  font-size: 4vw;
   line-height: 75px;
   text-align: center;
-  letter-spacing: 0.105em;
-  color: #000000;
+  align-items: center;
+  letter-spacing: 0em;
+  color: #FFBC39;
   z-index: 2;
 }
-#planeImg {
-  position: absolute;
-  top: 2em;
+#moonImg {
+  position: relative;
+  top: -16vw;
   width: 100vw;
   height: auto;
   z-index: 1;
+}
+#hang1Img {
+  position: relative;
+  top: 5vw;
+  width: auto;
+  float: left;
+  height: 20vw;
+  z-index: 1;
+  overflow: hidden;
+}
+#hang2Img {
+  position: absolute;
+  top: 5vw;
+  width: auto;
+  height: 20vw;
+  z-index: 1;
+  overflow: hidden;
+}
+#hang3Img {
+  position: relative;
+  top: 5vw;
+  width: auto;
+  height: 20vw;
+  float: right;
+  z-index: 1;
+  overflow: hidden;
+}
+#hang4Img {
+  position: relative;
+  top: 5vw;
+  width: auto;
+  height: 20vw;
+  float: right;
+  z-index: 1;
+  overflow: hidden;
 }
 .sectionAbout {
   padding-top: 5vh;
   width: 100vw;
   height: auto;
-  background: linear-gradient(
-    180deg,
-    rgba(147, 187, 191, 0.37) -8.24%,
-    rgba(189, 178, 180, 0.42) 18.46%,
-    #f2a7a7 100%
-  );
+  background: #151046;
 }
-#ticketsImg {
+
+#paperPlane {
   position: absolute;
   width: 40vw;
   height: auto;
   right: 2vw;
   top: 75rem;
   z-index: 1;
+  overflow: auto;
 }
-.sectionGoals {
+
+#elephant {
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    right: 10vw;
+    top: 117rem;
+    z-index: 1;
+    overflow: auto;
+}
+
+.sectionDuringDay {
+    padding-top: 5vh;
+    width: 100vw;
+    height: auto;
+    background: #151046;
+}
+
+.sectionText {
   width: 100vw;
   height: auto;
-  background: linear-gradient(180deg, #f2a7a7 0%, #f4b3a1 23.96%, #f8cf91 100%);
+  background: #151046;
 }
-.sectionDuring {
+.sectionCurrentStudent {
   padding: 3rem 0 5rem 0;
 }
+.sectionDuringDay {
+  padding-top: 5vh;
+}
+
 .sectionTracks {
   width: 100vw;
   height: auto;
   padding: 0 0 20vh 0;
-  background: linear-gradient(180deg, #f8cf91 0%, #ef9c67 76.04%, #e76c3f 100%);
+  background: #151046;
 }
 .sectionSchedule {
   width: 100vw;
   height: auto;
   padding: 20vh 0 20vh 0;
   left: 0px;
-  background: linear-gradient(180deg, #e76c3f 50.44%, #edc17f 100%);
+  background: #151046;
 }
 
 .scheduleTable {
@@ -131,7 +184,15 @@
 .sectionFAQ {
   width: 100vw;
   height: auto;
-  background: linear-gradient(180deg, #e76c3f 0%, #ef9c67 76.04%, #edc17f 100%);
+  background: #151046;
+}
+
+.sectionCatalystCohort {
+  padding-top: 15vh;
+  width: 100vw;
+  height: auto;
+  padding-left: 45vw;
+  background: #151046;
 }
 
 .question {
@@ -211,8 +272,6 @@
   .button {
     margin-bottom: 0 !important;
     margin-right: 2rem;
-  }
-  .trackTitle {
   }
 }
 @media (max-width: 800px) {
@@ -331,25 +390,32 @@
   height: auto;
   object-fit: cover;
 }
-@media (max-width: 509px) {
-  #signsImg {
-    width: 90vw;
-    transform: translate(-85%, 10%);
-  }
-  #ticketsImg {
-    width: 40vw;
-    height: auto;
-    right: 0vw;
-    top: 120vh;
+@media (max-width: 600px) {
+  #moonImg {
     visibility: hidden;
   }
 }
-@media (max-width: 700px) and (min-width: 510px) {
+@media (max-width: 700px) {
+  #elephant {
+    visibility: hidden;
+  }
+  #paperPlane {
+    visibility: hidden;
+  }
+  .sectionCatalystCohort {
+      padding-top: 15vh;
+      width: 100vw;
+      height: auto;
+      float: right;
+      background: #151046;
+  }
+}
+/* @media (max-width: 700px) and (min-width: 510px) {
   #signsImg {
     width: 80vw;
     transform: translate(-90%, 20%);
   }
-  #ticketsImg {
+  #paperPlane {
     width: 35vw;
     height: auto;
     right: 0vw;
@@ -362,8 +428,8 @@
     top: -120vh;
     visibility: hidden;
   }
-}
-@media (max-width: 700px) {
+} */
+/* @media (max-width: 700px) {
   .rectangle {
     width: 50vw;
     height: auto;
@@ -403,4 +469,4 @@
   width: 40vw;
   height: auto;
   left: -40vw;
-}
+} */

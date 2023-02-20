@@ -5,7 +5,7 @@ function MainPage() {
   return (
     <div>
       <Head>
-        <title>Catalyst: A Learning Liftoff</title>
+        <title>HexLabs - Catalyst</title>
         <meta
           name="description"
           content="Catalyst is a free day of STEM education directed towards underserved Georgia high school students formatted as a series of workshops."
@@ -14,19 +14,26 @@ function MainPage() {
       </Head>
       <div>
         <section className={styles.sectionIntro}>
+          <section>
+            <img src="/img/hang1.png" alt="hanging image 1" id={styles.hang1Img} />
+            <img src="/img/hang2.png" alt="hanging image 2" id={styles.hang2Img} />
+            <img src="/img/hang3.png" alt="hanging image 3" id={styles.hang3Img} />
+            <img src="/img/hang1.png" alt="hanging image 4" id={styles.hang4Img} />
+          </section>
           <h1 className={styles.title}>CATALYST</h1>
           <h3 className={styles.description}>
-            <b>Now boarding...</b>
+            <b>hexlabs</b>
           </h3>
-          <img src="/img/plane_crop.png" alt="plane going zoom" id={styles.planeImg} />
+          <img src="/img/moon.png" alt="moon" id={styles.moonImg} />
         </section>
         <section className={styles.sectionAbout}>
-          <h3>About Your Trip</h3>
+          <h3>About</h3>
           <p>
             HexLabs presents Catalyst, a day of STEM-related activities directed toward high school
-            students all throughout Georgia! We hope to see you on <b>Saturday, November 5th</b> and{" "}
-            <b>Saturday, November 12th</b> at Georgia Tech! This will be an opportunity for
-            participants to:
+            students all throughout Georgia! 
+          </p>
+          <p>
+            This will be an opportunity for participants to:
           </p>
           <ul>
             <li>Learn about the world of STEM and Computer Science as a career path</li>
@@ -36,47 +43,54 @@ function MainPage() {
               Connect with opportunities at Georgia Tech to further their education and exposure
             </li>
           </ul>
-          <img src="/img/Ticket.png" alt="tickets" id={styles.ticketsImg} />
+          <img src="/img/plane.png" alt="paper airplane" id={styles.paperPlane} />
         </section>
-        <section className={styles.sectionGoals}>
-          <div className={styles.sectionDuring}>
+        <section className={styles.sectionText}>
+          <div className={styles.sectionCurrentStudent}>
+            <h3>If You Are a Current Georgia Tech Student</h3>
+            <p>You're still able to participate in the event! 
+              Each year, GT students volunteer as mentors to help facilitate the projects and activities included in each available track. 
+              This is an opportunity for you to directly interact with high school students across Georgia, provide 
+              helpful knowledge to aspiring minds, and share your passion for computer science and engineering. 
+            </p>
+            <p>
+              The core responsibilities of mentors include:
+            </p>
+            <ul>
+              <li>Co-leading a student cohort</li>
+              <li>Encouraging mentees to network within cohorts</li>
+              <li>Inspiring mentees to learn both during <i>and</i> after the event</li>
+              <li>Arriving on-time and staying throughout the duration of the event</li>
+            </ul>
+            <p>Menter registration is opening soon!</p>
+          </div>
+          <div className={styles.sectionDuringDay}>
             <h3>During the Day</h3>
             <p>
-              Throughout the day, there will opportunities for students to engage and connect with
-              various industry professionals and college students. We want to show high school
-              students the value of computer science, which is why we are providing all of the
-              resources {`you'll`} need to get started!
+              Throughout the day, students will have the opportunity to follow one of four tracks:
+              Web Development, Product Development & Entrepreneurship, Data Science & AI, or Computer Aided Design.<br></br>
+              <br></br>
+              Each track consists of interactive workshops and curriculum that encourages students to think critically and creatively.
+              Additionally, there will be opportunities for students to engage and connect with various industry professionals and college students.<br></br>
+              <br></br>
+              We want to show high school students the value of computer science, which is why we are providing all of the resources you'll need to get started!
+            </p>
+            <img src="/img/elephant_image.png" alt="elephant" id={styles.elephant} />
+          </div>
+          <div className={styles.sectionCatalystCohort}>
+            <h3>NEW: Catalyst Cohort</h3>
+            <p>
+              We are introducing a cohort program that extends the vision of our Catalyst learn-a-thon.
+              A select group of students will have the opportunity to join the Catalyst Cohort.
+              Those who join the cohort will have a two-month immersive introductory STEM experience in web development before our learn-a-thon event!
+              In addition to the extended exploration into web development, students will have the opportunity to engage in extracurricular activities,
+              like field trips, office visits, and campus tours, for insight into professional and academic possibilities.
+              Cohort members will also have access to and work with HexLabs mentors to complete a unique personal project!
             </p>
           </div>
-          <h3>NEW: Catalyst Cohort</h3>
-          <p>
-            We are introducing a cohort program that extends the vision of our Catalyst
-            learn-a-thon. A select group of students will have the opportunity to join the Catalyst
-            Cohort. Those who join the cohort will have a two-month immersive introductory STEM
-            experience in web development before our learn-a-thon event! In addition to the extended
-            exploration into web development, students will have the opportunity to engage in
-            extracurricular activities, like field trips, office visits, and campus tours, for
-            insight into professional and academic possibilities. Cohort members will also have
-            access to and work with HexLabs mentors to complete a unique personal project!
-          </p>
-          <h3>Our goals</h3>
-          <ul>
-            <li>
-              To foster connections between students with like-minded interest in computer science{" "}
-            </li>
-            <li>
-              To create a community beyond students’ high schools for discussion, interaction, and
-              innovation
-            </li>
-            <li>
-              To encourage the long-term development of students’ ability to create impactful
-              projects
-            </li>
-          </ul>
-          <p>You can apply for the cohort below!</p>
-          <img src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
+          {/* <img src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
           <img src="/img/signs.png" alt="signs" id={styles.signsImg} />
-          <img src="/img/Clouds.png" alt="fluffy cloud" id={styles.cloud1Img} />
+          <img src="/img/Clouds.png" alt="fluffy cloud" id={styles.cloud1Img} /> */}
         </section>
         <section className={styles.sectionTracks}>
           <div>
@@ -85,13 +99,6 @@ function MainPage() {
             <div className={styles.row}></div>
             <div className={styles.row}></div>
           </div>
-          <a href="https://forms.gle/g5jSKBEQKunmvug16" rel="noreferrer noopener" target="_blank">
-            <div className={styles.rectangle}>
-              <h3 className={styles.registerTitle}>Book Your Ticket</h3>
-              <p className={styles.marginText}>Catalyst is accepting applications!</p>
-            </div>
-          </a>
-          <img src="/img/Clouds 2.png" alt="clouds" id={styles.clouds2Img} />
         </section>
         <section className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
