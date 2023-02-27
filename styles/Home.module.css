@@ -203,8 +203,10 @@
   align-items: center;
   color: black;
   text-align: center;
-  background: #f8cf91;
-  font-size: 1.2rem;
+  /* background: #f8cf91; */
+  /* background: #666699; */
+  /* background: #B4B4B4; */
+  background: #a4b3f2;
   font-family: Roboto;
   padding: 24px 24px;
   border-radius: 30px;
@@ -217,7 +219,9 @@
   width: 75%;
   margin: auto;
   position: relative;
-  background: #ecaf55;
+  /* background: #539dfc; */
+  /*background: #3399ff; */
+  background: #4a60f4;
   border-radius: 30px;
   font-family: Roboto;
   font-size: 1rem;
@@ -230,6 +234,7 @@
 .sectionFooter {
   width: 100vw;
   z-index: 0;
+  background: #151046;
 }
 .socials {
   z-index: 1000;
@@ -301,7 +306,8 @@
   margin: auto;
   margin-top: 12rem;
   border-radius: 25px;
-  background: #f2bba7;
+  background: #4a60f4;
+  /* background: #539dfc; */
   padding: 10vh;
   text-align: center;
 }

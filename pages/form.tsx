@@ -7,10 +7,10 @@ function MainPage() {
       <Head>
         <title>HexLabs - Catalyst</title>
         <meta
-          name="description"
+          name="form"
           content="Catalyst is a free day of STEM education directed towards underserved Georgia high school students formatted as a series of workshops."
         />
-        <meta property="og:url" content="https://catalyst.hexlabs.org/" />
+        <meta property="og:url" content="https://catalyst.hexlabs.org/register" />
       </Head>
       <div>
         <section className={styles.sectionIntro}>
@@ -91,17 +91,6 @@ function MainPage() {
           {/* <img src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
           <img src="/img/signs.png" alt="signs" id={styles.signsImg} />
           <img src="/img/Clouds.png" alt="fluffy cloud" id={styles.cloud1Img} /> */}
-          <a href="https://registration.hexlabs.org/63f7b3dca3d739b66acf39c8" rel="noopener" target="_blank">
-            <div className={styles.rectangle}>
-              <h3 className={styles.registerTitle}>Register Today!</h3>
-              <p className={styles.marginText}>
-                Catalyst is accepting applications! We hope to see you at{" "}
-                <b>The Klaus Advanced Computing Building</b> on Georgia
-                {` Tech's`} campus on <b>Date TBD</b> and{" "}
-                <b>Date TBD</b>!
-              </p>
-            </div>
-          </a>
         </section>
         <section className={styles.sectionTracks}>
           <div>
@@ -137,7 +126,7 @@ function MainPage() {
             Computer Science outreach in collegiate and high school communities. To learn more,
             check out our organization website 
             <u>
-              <a target="_blank" href="" rel="noreferrer">
+              <a target="_blank" href="https://hexlabs.org/" rel="noreferrer">
                 here
               </a>
             </u>
