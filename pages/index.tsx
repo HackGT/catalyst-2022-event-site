@@ -111,6 +111,10 @@ function MainPage() {
             <div className={styles.row}></div>
           </div>
         </section>
+        <section className={styles.sectionSchedule}>
+          <img src="/img/stars.png"></img>
+          <img src="/img/roses.png"></img>
+        </section>
         <section className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
           <div className={styles.question}>When will the cohort meet?</div>
@@ -163,10 +167,7 @@ function MainPage() {
                 <img src="/img/twitter.png" className={styles.imageMargin} alt="twitter" />
               </a>
               <a
-                href="https://www.instagram.com/thehexlabs/?hl=en"
-                target="_blank"
-                rel="noreferrer"
-              >
+                href="https://www.instagram.com/thehexlabs/" target="_blank" rel="noreferrer">
                 <img src="/img/instagram.png" className={styles.imageMargin} alt="instagram" />
               </a>
               <a href="https://github.com/HackGT" target="_blank" rel="noreferrer">
