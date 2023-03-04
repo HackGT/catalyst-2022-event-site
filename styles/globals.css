@@ -26,6 +26,7 @@ h3 {
   letter-spacing: 0.11em;
   color: #FFBC39;
 }
+
 @media (max-width: 500px) {
   h3 {
     width: 80vw;

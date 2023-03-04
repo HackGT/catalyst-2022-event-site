@@ -25,29 +25,33 @@ function MainPage() {
             <b>hexlabs</b>
           </h3>
           <img src="/img/moon.png" alt="moon" id={styles.moonImg} />
+          <img src="/img/fade.png" alt="fade" id={styles.fadeImg} />
         </section>
         <section className={styles.sectionAbout}>
           <h3>About</h3>
-          <p>
-            HexLabs presents Catalyst, a day of STEM-related activities directed toward high school
-            students all throughout Georgia! 
-          </p>
-          <p>
-            This will be an opportunity for participants to:
-          </p>
-          <ul>
-            <li>Learn about the world of STEM and Computer Science as a career path</li>
-            <li>Gain insight into impactful, widely-known technology companies</li>
-            <li>Receive mentorship from college students and other industry professionals</li>
-            <li>
-              Connect with opportunities at Georgia Tech to further their education and exposure
-            </li>
-          </ul>
+          <section className={styles.sectionAboutText}>
+            <p>
+              HexLabs presents Catalyst, a day of STEM-related activities directed toward high school
+              students all throughout Georgia! 
+            </p>
+            <p>
+              This will be an opportunity for participants to:
+            </p>
+            <ul>
+              <li>Learn about the world of STEM and Computer Science as a career path</li>
+              <li>Gain insight into impactful, widely-known technology companies</li>
+              <li>Receive mentorship from college students and other industry professionals</li>
+              <li>
+                Connect with opportunities at Georgia Tech to further their education and exposure
+              </li>
+            </ul>
+            </section>
           <img src="/img/plane.png" alt="paper airplane" id={styles.paperPlane} />
         </section>
         <section className={styles.sectionText}>
           <div className={styles.sectionCurrentStudent}>
-            <h3>If You Are a Current Georgia Tech Student</h3>
+            <h3>If You Are a Current</h3>
+            <h3>Georgia Tech Student</h3>
             <p>You're still able to participate in the event! 
               Each year, GT students volunteer as mentors to help facilitate the projects and activities included in each available track. 
               This is an opportunity for you to directly interact with high school students across Georgia, provide 
@@ -87,7 +91,21 @@ function MainPage() {
               like field trips, office visits, and campus tours, for insight into professional and academic possibilities.
               Cohort members will also have access to and work with HexLabs mentors to complete a unique personal project!
             </p>
+            <img src="/img/sheep.png" alt="sheep" id={styles.sheep} />
           </div>
+          <div className={styles.ourGoals}>
+            <h3>Our goals</h3>
+            <ul>
+                <li>To foster connections between students with like-minded interest in computer science </li>
+                <li>To create a community beyond students' high schools for discussion, interaction, and innovation</li>
+                <li>To encourage the long-term development of students ability to create impactful projects</li>
+              </ul>
+            <p>
+              You can apply for the cohort when completing registration!
+            </p>
+            <img src="/img/fox.png" alt="fox" id={styles.fox} />
+          </div>
+          <img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.plane} />
           {/* <img src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
           <img src="/img/signs.png" alt="signs" id={styles.signsImg} />
           <img src="/img/Clouds.png" alt="fluffy cloud" id={styles.cloud1Img} /> */}
@@ -120,7 +138,7 @@ function MainPage() {
             High school students from all across Georgia are welcome to register.
           </div>
           <div className={styles.question}>Where is Catalyst?</div>
-          <div className={styles.answer}>{`Catalyst will be held on Georgia Tech’s campus!`}</div>
+          <div className={styles.answer}>{`Catalyst will be held on Georgia Tech's campus!`}</div>
           <div className={styles.question}>Do I need to bring anything to cohort meeting?</div>
           <div className={styles.answer}>
             Nope! We will provide food for every participant and laptops when necessary.
@@ -154,6 +172,7 @@ function MainPage() {
         </section>
         <footer className={styles.sectionFooter}>
           <img src="/img/footer.png" alt="footer" id={styles.footerImg} />
+          <p>With ❤️ from the HexLabs team</p>
           <div className={styles.socials}>
             <span>
               <a href="https://www.facebook.com/TheHexLabs" target="_blank" rel="noreferrer">

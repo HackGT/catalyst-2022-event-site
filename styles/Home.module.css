@@ -56,6 +56,13 @@
   height: auto;
   z-index: 1;
 }
+#fadeImg {
+  position: relative;
+  top: -16.75vw;
+  width: 100vw;
+  height: 15vw;
+  z-index: 1;
+}
 #hang1Img {
   position: relative;
   top: 5vw;
@@ -93,17 +100,25 @@
 }
 .sectionAbout {
   padding-top: 5vh;
+  padding-right: 30%;
   width: 100vw;
   height: auto;
   background: #151046;
 }
+.ourGoals {
+    padding-top: 5vh;
+    padding-right: 30%;
+    width: 100vw;
+    height: auto;
+    background: #151046;
+}
 
 #paperPlane {
   position: absolute;
-  width: 40vw;
-  height: auto;
-  right: 2vw;
-  top: 75rem;
+  width: 50vw;
+  height: 40vw;
+  right: 0.1vw;
+  top: 70rem;
   z-index: 1;
   overflow: auto;
 }
@@ -116,6 +131,26 @@
     top: 117rem;
     z-index: 1;
     overflow: auto;
+}
+
+#fox {
+  position: absolute;
+  width: 30vw;
+  height: auto;
+  right: 10vw;
+  top: 170rem;
+  z-index: 1;
+  overflow: auto;
+}
+
+#sheep {
+  position: absolute;
+  width: 30vw;
+  height: auto;
+  right: 50rem;
+  top: 142.5rem;
+  z-index: 1;
+  overflow: auto;
 }
 
 .sectionDuringDay {
@@ -398,6 +433,9 @@
 }
 @media (max-width: 600px) {
   #moonImg {
+    visibility: hidden;
+  }
+  #fadeImg {
     visibility: hidden;
   }
 }
