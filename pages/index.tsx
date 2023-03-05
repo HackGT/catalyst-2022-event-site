@@ -13,13 +13,14 @@ function MainPage() {
         <meta property="og:url" content="https://catalyst.hexlabs.org/" />
       </Head>
       <div className={styles.topNav}>
-        <a className={styles.active} href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#tracks">Tracks</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#faq">FAQ</a>
       </div>  
       <div>
-        <section className={styles.sectionIntro}>
+        <section id="home" className={styles.sectionIntro}>
           <section>
             <img src="/img/hang1.png" alt="hanging image 1" id={styles.hang1Img} />
             <img src="/img/hang2.png" alt="hanging image 2" id={styles.hang2Img} />
@@ -33,7 +34,7 @@ function MainPage() {
           <img src="/img/moon.png" alt="moon" id={styles.moonImg} />
           <img src="/img/fade.png" alt="fade" id={styles.fadeImg} />
         </section>
-        <section className={styles.sectionAbout}>
+        <section id="about" className={styles.sectionAbout}>
           <h3>About</h3>
           <section className={styles.sectionAboutText}>
             <p>
@@ -72,7 +73,7 @@ function MainPage() {
               <li>Inspiring mentees to learn both during <i>and</i> after the event</li>
               <li>Arriving on-time and staying throughout the duration of the event</li>
             </ul>
-            <p>Menter registration is opening soon!</p>
+            <p>Mentor registration is opening soon!</p>
           </div>
           <div className={styles.sectionDuringDay}>
             <h3>During the Day</h3>
@@ -139,7 +140,7 @@ function MainPage() {
           <img src="/img/stars.png"></img>
           <img src="/img/roses.png"></img>
         </section>
-        <section className={styles.sectionFAQ}>
+        <section id="faq" className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
           <div className={styles.question}>When will the cohort meet?</div>
           <div className={styles.answer}>Saturday, November 5th and Saturday, November 12th.</div>

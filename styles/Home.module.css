@@ -50,33 +50,31 @@
   z-index: 2;
 }
 
-#header .container {
+.topNav {
   position: fixed;
-  background-color: #001fe7;
-  width: 100vw;
-  height: 5vw;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #4a60f4;
+  overflow: hidden;
   z-index: 10;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(76, 73, 111);
 }
 
-.main-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.main-nav ul li {
+.topNav a {
   float: left;
-  margin-left: 15px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 45px;
+  font-family: Fairy Cottage;
 }
 
-.main-nav ul li a {
-  text-decoration: none;
-  color: #c30000;
-} 
+/* Change the color of links on hover */
+.topNav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
 #moonImg {
   position: relative;
@@ -135,7 +133,7 @@
   background: #151046;
 }
 .ourGoals {
-    padding-top: 5vh;
+    padding-top: 17.5vh;
     padding-right: 30%;
     width: 100vw;
     height: auto;
@@ -146,28 +144,33 @@
   position: absolute;
   width: 50vw;
   height: 40vw;
-  right: 0.1vw;
-  top: 70rem;
+  right: 0vh;
+  top: 135vh;
+  display: block;
   z-index: 1;
   overflow: auto;
 }
 
 #elephant {
-    position: absolute;
-    width: 30vw;
-    height: auto;
-    right: 10vw;
-    top: 117rem;
-    z-index: 1;
-    overflow: auto;
-}
-
-#fox {
   position: absolute;
   width: 30vw;
   height: auto;
-  right: 10vw;
-  top: 177rem;
+  right: 20vh;
+  top: 225vh;
+  display: flex;
+  z-index: 1;
+  overflow: auto;
+}
+
+#fox {
+  position: relative;
+  width: 30vw;
+  height: auto;
+  left: 5vw;
+  margin-right: 30vh;
+  margin-top: -40vh;
+  margin-left: auto;
+  display: block;
   z-index: 1;
   overflow: auto;
 }
@@ -176,8 +179,12 @@
   position: absolute;
   width: 30vw;
   height: auto;
-  right: 50rem;
-  top: 145rem;
+  left: 10vw;
+  top: 285vh;
+  /* margin-right: 30vh;
+  margin-top: -40vh;
+  margin-left: auto; */
+  display: block;
   z-index: 1;
   overflow: auto;
 }
@@ -195,7 +202,7 @@
   background: #151046;
 }
 .sectionCurrentStudent {
-  padding: 3rem 0 5rem 0;
+  padding: 3rem 0 1rem 0;
 }
 .sectionDuringDay {
   padding-top: 5vh;
@@ -276,7 +283,7 @@
   border-radius: 30px;
   border: none;
   width: 75%;
-  z-index: 5000;
+  z-index: 9;
   text-align: left;
 }
 .answer {
@@ -468,11 +475,17 @@
     visibility: hidden;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   #elephant {
     visibility: hidden;
   }
   #paperPlane {
+    visibility: hidden;
+  }
+  #sheep {
+    visibility: hidden;
+  }
+  #fox {
     visibility: hidden;
   }
   .sectionCatalystCohort {

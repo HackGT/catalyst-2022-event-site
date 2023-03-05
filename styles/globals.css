@@ -13,6 +13,7 @@ html {
   display: flex;
   max-height: 100vh;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .main-nav ul {
