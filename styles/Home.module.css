@@ -151,6 +151,18 @@
   overflow: auto;
 }
 
+#plane {
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin-right: -30vh;
+  margin-top: -10vh;
+  margin-left: auto;
+  display: block;
+  z-index: 1;
+  overflow: auto;
+}
+
 #elephant {
   position: absolute;
   width: 30vw;
@@ -211,13 +223,21 @@
 .sectionTracks {
   width: 100vw;
   height: auto;
-  padding: 0 0 20vh 0;
+  padding: 0 0 20vh -20vh;
+  background: #151046;
+}
+
+.rightTracks {
+  /*padding-top: 0vh; */
+  width: 100vw;
+  height: auto;
+  padding-left: 45vw;
   background: #151046;
 }
 .sectionSchedule {
   width: 100vw;
   height: auto;
-  padding: 20vh 0 20vh 0;
+  padding: 20vh 0 10vh 0;
   left: 0px;
   background: #151046;
 }
@@ -339,8 +359,9 @@
     width: 80vw;
   }
   .marginText {
-    padding: 0 !important;
+    padding: 0vh !important;
     margin: 0 !important;
+
   }
   .registerButton {
     display: block !important;
@@ -372,14 +393,14 @@
 }
 .rectangle {
   position: relative;
-  width: 50vw;
+  width: 25vw;
   height: auto;
   margin: auto;
-  margin-top: 12rem;
+  margin-top: 2rem;
   border-radius: 25px;
   background: #4a60f4;
   /* background: #539dfc; */
-  padding: 10vh;
+  padding: 2.5vh;
   text-align: center;
 }
 
@@ -408,7 +429,7 @@
 }
 .registerTitle {
   padding-left: 0;
-  width: 50vw;
+  width: 25vw;
 }
 #clouds2Img {
   position: relative;
@@ -446,6 +467,15 @@
   text-align: center;
   font-size: 60px;
 }
+
+.tracksTitle {
+  margin: auto;
+  padding: 3rem 0 3rem 0;
+  padding-top: 40vh;
+  text-align: center;
+  font-size: 60px;
+}
+
 .registerButton {
   display: flex;
   gap: 1vw;
@@ -480,6 +510,10 @@
     visibility: hidden;
   }
   #paperPlane {
+    visibility: hidden;
+  }
+
+  #plane {
     visibility: hidden;
   }
   #sheep {
@@ -549,7 +583,6 @@
     visibility: hidden;
   }
 }
-
 #cloud1Img {
   position: relative;
   width: 40vw;

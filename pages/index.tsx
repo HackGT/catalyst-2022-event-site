@@ -112,32 +112,59 @@ function MainPage() {
             </p>
             <img src="/img/fox.png" alt="fox" id={styles.fox} />
           </div>
-          <img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.plane} />
+          {/*<img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.plane} />*/}
           {/* <img src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
           <img src="/img/signs.png" alt="signs" id={styles.signsImg} />
           <img src="/img/Clouds.png" alt="fluffy cloud" id={styles.cloud1Img} /> */}
-          <a href="https://registration.hexlabs.org/63f7b3dca3d739b66acf39c8" rel="noopener" target="_blank">
-            <div className={styles.rectangle}>
-              <h3 className={styles.registerTitle}>Register Today!</h3>
-              <p className={styles.marginText}>
-                Catalyst is accepting applications! We hope to see you at{" "}
-                <b>The Klaus Advanced Computing Building</b> on Georgia
-                {` Tech's`} campus on <b>Date TBD</b> and{" "}
-                <b>Date TBD</b>!
-              </p>
-            </div>
-          </a>
         </section>
-        <section className={styles.sectionTracks}>
+        <section id="tracks" className={styles.sectionTracks}>
           <div>
             {/* do not remove this, otherwise there will be random whitespace */}
-            <h3 className={styles.sectionTitle}></h3>
+            
+            <img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.plane} />
+            <h3 className={styles.tracksTitle}>Tracks</h3>
+              <h3>Web Development</h3>
+              <p>
+              Want to learn about the technologies core to the internet? Then Web Development is for you. 
+              This track will teach you the fundamentals of HTML, CSS, and JavaScript so you can build your own website.
+              Students will be given the opportunity to host their websites via GitHub Pages and learn about the basics of how 
+              websites function and interact with the world.
+              </p>
+              <div className={styles.rightTracks}>
+                <h3>Computer-Aided Design</h3>
+                <p>Do you ever wonder how common household products are made?  Would you be interested in designing and making 
+                those products yourself? If you like the idea of fabricating hardware products from scratch, then the Modeling track is for you!
+                You will learn how to use CAD software to create 3D designs and make them with machines like 3D printers, lathes, etc.
+                </p>
+                </div>
+              <h3>Data Science and Artificial Intelligence</h3>
+              <p>Do you ever wonder how things like Netflix recommendations and Spotify playlists are made?  Are you a technical person and like 
+                learning about what goes on in the background? If so, you should consider the ML track!
+                In this track, you will learn how concepts like Data Science and AI come together to create Machine Learning based products!  
+                Things like data integration, learning models, and information recognition will become much less foreign to you after going through this track.
+              </p>
+              <div className={styles.rightTracks}>
+                <h3>Product Design & Entrepreneurship</h3>
+                <p>Have you ever dreamt of starting your own business? Are you a creative thinker and a problem solver? Then the Product Development and Entrepreneurship track is for you!
+                With this track you will be able to brainstorm products, work around the risks that go into creating a new product and simulate the process of product creation from ideation to execution. 
+                You will see the versatility of computer science and how it intertwines with the business world.
+                </p>
+              </div>
+              <h3 className={styles.sectionTitle}>Start your Story!</h3>
+              <p>Registration is FREE and is open NOW at catalyst.hexlabs.org and closes on April 2nd. </p>
+              <div className={styles.row}>
+            </div>
             <div className={styles.row}></div>
-            <div className={styles.row}></div>
+            <a href="https://registration.hexlabs.org/63f7b3dca3d739b66acf39c8" rel="noopener" target="_blank">
+            <div className={styles.rectangle}>
+              <h3 className={styles.registerTitle}>Register Today!</h3>
+            </div>
+          </a>
           </div>
         </section>
-        <section className={styles.sectionSchedule}>
+        <section id="schedule" className={styles.sectionSchedule}>
           <img src="/img/stars.png"></img>
+          <h3 className={styles.sectionTitle}>Schedule COMING SOON!</h3>
           <img src="/img/roses.png"></img>
         </section>
         <section id="faq" className={styles.sectionFAQ}>
@@ -164,7 +191,7 @@ function MainPage() {
           <div className={styles.answer}>
             HexLabs is a student organization and 501(c)(3) non-profit at Georgia Tech devoted to
             Computer Science outreach in collegiate and high school communities. To learn more,
-            check out our organization website 
+            check out our organization website 
             <u>
               <a target="_blank" href="" rel="noreferrer">
                 here
@@ -174,11 +201,11 @@ function MainPage() {
           </div>
           <p className={styles.contactText}>
             Other Questions? <br></br>
-            <br></br> Email us at 
+            <br></br> Email us at:
             <u>
               <a href="mailto: hello@hexlabs.org">hello@hexlabs.org</a>
             </u>
-             and {`we'll`} be happy to help!
+              and {`we'll`} be happy to help!
           </p>
         </section>
         <footer className={styles.sectionFooter}>
