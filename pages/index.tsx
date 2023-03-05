@@ -12,6 +12,12 @@ function MainPage() {
         />
         <meta property="og:url" content="https://catalyst.hexlabs.org/" />
       </Head>
+      <div className={styles.topNav}>
+        <a className={styles.active} href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>  
       <div>
         <section className={styles.sectionIntro}>
           <section>
