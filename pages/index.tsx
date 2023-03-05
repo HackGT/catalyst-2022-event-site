@@ -149,9 +149,12 @@ function MainPage() {
                 With this track you will be able to brainstorm products, work around the risks that go into creating a new product and simulate the process of product creation from ideation to execution. 
                 You will see the versatility of computer science and how it intertwines with the business world.
                 </p>
-              </div>
-              <h3 className={styles.sectionTitle}>Start your Story!</h3>
-              <p>Registration is FREE and is open NOW at catalyst.hexlabs.org and closes on April 2nd. </p>
+            </div>
+            <h3 className={styles.sectionTitle}>Start your Story!</h3>
+              <p className={styles.sectionPCenter}>
+                Registration is FREE and is open NOW at catalyst.hexlabs.org and closes on April 2nd. 
+                Cohort interest will be accepted until March 2nd.
+              </p>
               <div className={styles.row}>
             </div>
             <div className={styles.row}></div>
@@ -210,7 +213,7 @@ function MainPage() {
         </section>
         <footer className={styles.sectionFooter}>
           <img src="/img/footer.png" alt="footer" id={styles.footerImg} />
-          <p>With ❤️ from the HexLabs team</p>
+          <p className={styles.sectionBottomText}>With ❤️ from the HexLabs team</p>
           <div className={styles.socials}>
             <span>
               <a href="https://www.facebook.com/TheHexLabs" target="_blank" rel="noreferrer">
