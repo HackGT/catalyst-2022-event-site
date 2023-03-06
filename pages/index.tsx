@@ -119,9 +119,8 @@ function MainPage() {
         </section>
         <section id="tracks" className={styles.sectionTracks}>
           <div>
-            {/* do not remove this, otherwise there will be random whitespace */}
             
-            <img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.plane} />
+            <img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.invertedPlane} />
             <h3 className={styles.tracksTitle}>Tracks</h3>
               <h3>Web Development</h3>
               <p>

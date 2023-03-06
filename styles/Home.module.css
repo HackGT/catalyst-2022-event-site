@@ -137,7 +137,7 @@
   scroll-margin-top: 8vh;
 }
 .ourGoals {
-    padding-top: 17.5vh;
+    padding-top: 12.5vh;
     padding-right: 30%;
     width: 100vw;
     height: auto;
@@ -155,13 +155,12 @@
   overflow: auto;
 }
 
-#plane {
-  position: absolute;
+#invertedPlane {
+  position: relative;
   width: auto;
   height: auto;
-  margin-right: -30vh;
   margin-top: -10vh;
-  margin-left: auto;
+  margin-bottom: -60vh;
   display: block;
   z-index: 1;
   overflow: auto;
@@ -192,14 +191,11 @@
 }
 
 #sheep {
-  position: absolute;
+  position: relative;
   width: 30vw;
   height: auto;
-  left: 10vw;
-  top: 300vh;
-  /* margin-right: 30vh;
-  margin-top: -40vh;
-  margin-left: auto; */
+  margin-left: -65vh;
+  margin-top: -45vh;
   display: block;
   z-index: 1;
   overflow: auto;
@@ -227,7 +223,7 @@
 .sectionTracks {
   width: 100vw;
   height: auto;
-  padding: 0 0 20vh -20vh;
+  padding: 0 0 0 -20vh;
   background: #151046;
   scroll-margin-top: -25vh;
   z-index: 10;
@@ -237,7 +233,8 @@
   /*padding-top: 0vh; */
   width: 100vw;
   height: auto;
-  padding-left: 45vw;
+  margin-top: -30vh;
+  padding-left: 42.5vw;
   background: #151046;
 }
 .sectionSchedule {
