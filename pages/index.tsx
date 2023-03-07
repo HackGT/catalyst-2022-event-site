@@ -213,7 +213,7 @@ function MainPage() {
           </p>
         </section>
         <footer className={styles.sectionFooter}>
-          <img src="/img/footer.png" alt="footer" id={styles.footerImg} />
+          <img src="/img/footer_stars.png" alt="footer" id={styles.footerImg} />
           <p className={styles.sectionBottomText}>With ❤️ from the HexLabs team</p>
           <div className={styles.socials}>
             <span>
