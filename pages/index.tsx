@@ -62,7 +62,7 @@ function MainPage() {
           <div className={styles.sectionCurrentStudent}>
             <h3>If You Are a Current</h3>
             <h3>Georgia Tech Student</h3>
-            <p>You&apos;re still able to participate in the event! 
+            <p>You're still able to participate in the event! 
               Each year, GT students volunteer as mentors to help facilitate the projects and activities included in each available track. 
               This is an opportunity for you to directly interact with high school students across Georgia, provide 
               helpful knowledge to aspiring minds, and share your passion for computer science and engineering. 
@@ -87,7 +87,7 @@ function MainPage() {
               Each track consists of interactive workshops and curriculum that encourages students to think critically and creatively.
               Additionally, there will be opportunities for students to engage and connect with various industry professionals and college students.<br></br>
               <br></br>
-              We want to show high school students the value of computer science, which is why we are providing all of the resources you&apos;ll need to get started!
+              We want to show high school students the value of computer science, which is why we are providing all of the resources you'll need to get started!
             </p>
             <Image src="/img/elephant_image.png" alt="elephant" id={styles.elephant} />
           </div>
@@ -107,7 +107,7 @@ function MainPage() {
             <h3>Our goals</h3>
             <ul>
                 <li>To foster connections between students with like-minded interest in computer science </li>
-                <li>To create a community beyond students&apos; high schools for discussion, interaction, and innovation</li>
+                <li>To create a community beyond students' high schools for discussion, interaction, and innovation</li>
                 <li>To encourage the long-term development of students ability to create impactful projects</li>
               </ul>
             <p>
@@ -160,7 +160,7 @@ function MainPage() {
               <div className={styles.row}>
             </div>
             <div className={styles.row}></div>
-            <a href="https://registration.hexlabs.org/63f7b3dca3d739b66acf39c8" rel="noreferrer" target="_blank">
+            <a href="https://registration.hexlabs.org/63f7b3dca3d739b66acf39c8" rel="noopener" target="_blank">
             <div className={styles.rectangle}>
               <h3 className={styles.registerTitle}>Register Today!</h3>
             </div>
@@ -168,9 +168,9 @@ function MainPage() {
           </div>
         </section>
         <section id="schedule" className={styles.sectionSchedule}>
-          <Image src="/img/stars.png" alt="stars"/>
+          <Image src="/img/stars.png"/>
           <h3 className={styles.sectionTitle}>Schedule COMING SOON!</h3>
-          <Image src="/img/roses.png" alt="roses"/>
+          <Image src="/img/roses.png"/>
         </section>
         <section id="faq" className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
