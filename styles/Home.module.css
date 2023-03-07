@@ -139,11 +139,12 @@
   scroll-margin-top: 8vh;
 }
 .ourGoals {
-    padding-top: 12.5vh;
-    padding-right: 30%;
-    width: 100vw;
-    height: auto;
-    background: #151046;
+  position: relative;
+  padding-top: 12.5vh;
+  padding-right: 30%;
+  width: 100vw;
+  height: auto;
+  background: #151046;
 }
 
 #paperPlane {
@@ -166,6 +167,12 @@
   display: block;
   z-index: 1;
   overflow: auto;
+}
+
+#rosesandstars {
+  position: relative;
+  width: 100vw;
+  height: auto;
 }
 
 #elephant {
@@ -409,10 +416,9 @@
   width: 25vw;
   height: auto;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   border-radius: 25px;
-  background: #4a60f4;
-  /* background: #539dfc; */
+  background: rgb(76, 73, 111);
   padding: 2.5vh;
   text-align: center;
 }
@@ -441,6 +447,7 @@
   padding-bottom: 5vh;
 }
 .registerTitle {
+  position: relative;
   padding-left: 0;
   width: 25vw;
 }
@@ -549,6 +556,9 @@
     visibility: hidden;
   }
   #fox {
+    visibility: hidden;
+  }
+  #invertedPlane {
     visibility: hidden;
   }
   .sectionCatalystCohort {

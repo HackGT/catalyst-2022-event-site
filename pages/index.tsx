@@ -167,9 +167,9 @@ function MainPage() {
           </div>
         </section>
         <section id="schedule" className={styles.sectionSchedule}>
-          <img src="/img/stars.png"></img>
+          <img src="/img/stars.png" id={styles.rosesandstars}></img>
           <h3 className={styles.sectionTitle}>Schedule COMING SOON!</h3>
-          <img src="/img/roses.png"></img>
+          <img src="/img/roses.png" id={styles.rosesandstars}></img>
         </section>
         <section id="faq" className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
