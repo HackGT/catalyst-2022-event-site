@@ -1,3 +1,5 @@
+/* eslint no-img-element: 0 */
+
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
