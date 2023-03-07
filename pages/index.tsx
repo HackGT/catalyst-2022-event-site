@@ -1,4 +1,4 @@
-/* eslint no-img-element: 0 */
+import Image from 'next/image';
 
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
@@ -24,17 +24,17 @@ function MainPage() {
       <div>
         <section id="home" className={styles.sectionIntro}>
           <section>
-            <img src="/img/hang1.png" alt="hanging image 1" id={styles.hang1Img} />
-            <img src="/img/hang2.png" alt="hanging image 2" id={styles.hang2Img} />
-            <img src="/img/hang3.png" alt="hanging image 3" id={styles.hang3Img} />
-            <img src="/img/hang1.png" alt="hanging image 4" id={styles.hang4Img} />
+            <Image src="/img/hang1.png" alt="hanging image 1" id={styles.hang1Img} />
+            <Image src="/img/hang2.png" alt="hanging image 2" id={styles.hang2Img} />
+            <Image src="/img/hang3.png" alt="hanging image 3" id={styles.hang3Img} />
+            <Image src="/img/hang1.png" alt="hanging image 4" id={styles.hang4Img} />
           </section>
           <h1 className={styles.title}>CATALYST</h1>
           <h3 className={styles.description}>
             <b>hexlabs</b>
           </h3>
-          <img src="/img/moon.png" alt="moon" id={styles.moonImg} />
-          <img src="/img/fade.png" alt="fade" id={styles.fadeImg} />
+          <Image src="/img/moon.png" alt="moon" id={styles.moonImg} />
+          <Image src="/img/fade.png" alt="fade" id={styles.fadeImg} />
         </section>
         <section id="about" className={styles.sectionAbout}>
           <h3>About</h3>
@@ -55,7 +55,7 @@ function MainPage() {
               </li>
             </ul>
             </section>
-          <img src="/img/plane.png" alt="paper airplane" id={styles.paperPlane} />
+          <Image src="/img/plane.png" alt="paper airplane" id={styles.paperPlane} />
         </section>
         <section className={styles.sectionText}>
           <div className={styles.sectionCurrentStudent}>
@@ -88,7 +88,7 @@ function MainPage() {
               <br></br>
               We want to show high school students the value of computer science, which is why we are providing all of the resources you'll need to get started!
             </p>
-            <img src="/img/elephant_image.png" alt="elephant" id={styles.elephant} />
+            <Image src="/img/elephant_image.png" alt="elephant" id={styles.elephant} />
           </div>
           <div className={styles.sectionCatalystCohort}>
             <h3>NEW: Catalyst Cohort</h3>
@@ -100,7 +100,7 @@ function MainPage() {
               like field trips, office visits, and campus tours, for insight into professional and academic possibilities.
               Cohort members will also have access to and work with HexLabs mentors to complete a unique personal project!
             </p>
-            <img src="/img/sheep.png" alt="sheep" id={styles.sheep} />
+            <Image src="/img/sheep.png" alt="sheep" id={styles.sheep} />
           </div>
           <div className={styles.ourGoals}>
             <h3>Our goals</h3>
@@ -112,17 +112,17 @@ function MainPage() {
             <p>
               You can apply for the cohort when completing registration!
             </p>
-            <img src="/img/fox.png" alt="fox" id={styles.fox} />
+            <Image src="/img/fox.png" alt="fox" id={styles.fox} />
           </div>
-          {/*<img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.plane} />*/}
-          {/* <img src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
-          <img src="/img/signs.png" alt="signs" id={styles.signsImg} />
-          <img src="/img/Clouds.png" alt="fluffy cloud" id={styles.cloud1Img} /> */}
+          {/*<Image src="/img/inverted_plane.png" alt="inverted_plane" id={styles.plane} />*/}
+          {/* <Image src="/img/Luggage.png" alt="luggage" id={styles.luggageImg} />
+          <Image src="/img/signs.png" alt="signs" id={styles.signsImg} />
+          <Image src="/img/Clouds.png" alt="fluffy cloud" id={styles.cloud1Img} /> */}
         </section>
         <section id="tracks" className={styles.sectionTracks}>
           <div>
             
-            <img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.invertedPlane} />
+            <Image src="/img/inverted_plane.png" alt="inverted_plane" id={styles.invertedPlane} />
             <h3 className={styles.tracksTitle}>Tracks</h3>
               <h3>Web Development</h3>
               <p>
@@ -167,9 +167,9 @@ function MainPage() {
           </div>
         </section>
         <section id="schedule" className={styles.sectionSchedule}>
-          <img src="/img/stars.png"></img>
+          <Image src="/img/stars.png"></img>
           <h3 className={styles.sectionTitle}>Schedule COMING SOON!</h3>
-          <img src="/img/roses.png"></img>
+          <Image src="/img/roses.png"></img>
         </section>
         <section id="faq" className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
@@ -213,25 +213,25 @@ function MainPage() {
           </p>
         </section>
         <footer className={styles.sectionFooter}>
-          <img src="/img/footer.png" alt="footer" id={styles.footerImg} />
+          <Image src="/img/footer.png" alt="footer" id={styles.footerImg} />
           <p className={styles.sectionBottomText}>With ❤️ from the HexLabs team</p>
           <div className={styles.socials}>
             <span>
               <a href="https://www.facebook.com/TheHexLabs" target="_blank" rel="noreferrer">
-                <img src="/img/facebook.png" alt="facebook" />
+                <Image src="/img/facebook.png" alt="facebook" />
               </a>
               <a href="https://twitter.com/thehexlabs" target="_blank" rel="noreferrer">
-                <img src="/img/twitter.png" className={styles.imageMargin} alt="twitter" />
+                <Image src="/img/twitter.png" className={styles.imageMargin} alt="twitter" />
               </a>
               <a
                 href="https://www.instagram.com/thehexlabs/" target="_blank" rel="noreferrer">
-                <img src="/img/instagram.png" className={styles.imageMargin} alt="instagram" />
+                <Image src="/img/instagram.png" className={styles.imageMargin} alt="instagram" />
               </a>
               <a href="https://github.com/HackGT" target="_blank" rel="noreferrer">
-                <img src="/img/github.png" className={styles.imageMargin} alt="github" />
+                <Image src="/img/github.png" className={styles.imageMargin} alt="github" />
               </a>
               <a href="https://hexlabs.org/" target="_blank" rel="noreferrer">
-                <img src="/img/logo.png" className={styles.imageMargin} alt="hexlabs" />
+                <Image src="/img/logo.png" className={styles.imageMargin} alt="hexlabs" />
               </a>
             </span>
           </div>
