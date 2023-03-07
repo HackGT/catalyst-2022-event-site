@@ -5,7 +5,6 @@ import styles from "../styles/Home.module.css";
 
 function MainPage() {
   return (
-  <>
     <div>
       <Head>
         <title>HexLabs - Catalyst</title>
@@ -168,9 +167,9 @@ function MainPage() {
           </div>
         </section>
         <section id="schedule" className={styles.sectionSchedule}>
-          <Image src="/img/stars.png"/>
+          <Image src="/img/stars.png"></img>
           <h3 className={styles.sectionTitle}>Schedule COMING SOON!</h3>
-          <Image src="/img/roses.png"/>
+          <Image src="/img/roses.png"></img>
         </section>
         <section id="faq" className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
@@ -239,7 +238,6 @@ function MainPage() {
         </footer>
       </div>
     </div>
-    </>
   );
 }
 
