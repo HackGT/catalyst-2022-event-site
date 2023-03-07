@@ -160,7 +160,7 @@ function MainPage() {
               <div className={styles.row}>
             </div>
             <div className={styles.row}></div>
-            <a href="https://registration.hexlabs.org/63f7b3dca3d739b66acf39c8" rel="noreferrer noopener" target="_blank">
+            <a href="https://registration.hexlabs.org/63f7b3dca3d739b66acf39c8" rel="noreferrer" target="_blank">
             <div className={styles.rectangle}>
               <h3 className={styles.registerTitle}>Register Today!</h3>
             </div>
