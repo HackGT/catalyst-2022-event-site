@@ -31,7 +31,7 @@ function MainPage() {
           </section>
           <h1 className={styles.title}>CATALYST</h1>
           <h3 className={styles.description}>
-            <b>hexlabs</b>
+            hexlabs
           </h3>
           <img src="/img/moon.png" alt="moon" id={styles.moonImg} />
           <img src="/img/fade.png" alt="fade" id={styles.fadeImg} />
@@ -59,8 +59,7 @@ function MainPage() {
         </section>
         <section className={styles.sectionText}>
           <div className={styles.sectionCurrentStudent}>
-            <h3>If You Are a Current</h3>
-            <h3>Georgia Tech Student</h3>
+            <h3>If You Are a Current Georgia Tech Student</h3>
             <p>You're still able to participate in the event! 
               Each year, GT students volunteer as mentors to help facilitate the projects and activities included in each available track. 
               This is an opportunity for you to directly interact with high school students across Georgia, provide 
@@ -77,8 +76,8 @@ function MainPage() {
             </ul>
             <p>Mentor registration is opening soon!</p>
           </div>
+          <h3>During the Day</h3>
           <div className={styles.sectionDuringDay}>
-            <h3>During the Day</h3>
             <p>
               Throughout the day, students will have the opportunity to follow one of four tracks:
               Web Development, Product Development & Entrepreneurship, Data Science & AI, or Computer Aided Design.<br></br>
@@ -90,28 +89,33 @@ function MainPage() {
             </p>
             <img src="/img/elephant_image.png" alt="elephant" id={styles.elephant} />
           </div>
+          <h3>NEW: Catalyst Cohort</h3>
           <div className={styles.sectionCatalystCohort}>
-            <h3>NEW: Catalyst Cohort</h3>
+            <img src="/img/sheep.png" alt="sheep" id={styles.sheep} />
             <p>
-              We are introducing a cohort program that extends the vision of our Catalyst learn-a-thon.
+              We are introducing a cohort program that extends the vision 
+              <br/>
+              of our Catalyst learn-a-thon.
               A select group of students will have the opportunity to join the Catalyst Cohort.
-              Those who join the cohort will have a two-month immersive introductory STEM experience in web development before our learn-a-thon event!
+              <br/>
+              Those who join the cohort will have a two-month immersive 
+              <br/>
+              introductory STEM experience in web development before our learn-a-thon event!
               In addition to the extended exploration into web development, students will have the opportunity to engage in extracurricular activities,
+              <br/>
               like field trips, office visits, and campus tours, for insight into professional and academic possibilities.
               Cohort members will also have access to and work with HexLabs mentors to complete a unique personal project!
+              <br/><br/>
+              <p>You can apply for the cohort when completing registration!</p>
             </p>
-            <img src="/img/sheep.png" alt="sheep" id={styles.sheep} />
           </div>
+          <h3>Our goals</h3>
           <div className={styles.ourGoals}>
-            <h3>Our goals</h3>
             <ul>
-                <li>To foster connections between students with like-minded interest in computer science </li>
-                <li>To create a community beyond students' high schools for discussion, interaction, and innovation</li>
-                <li>To encourage the long-term development of students ability to create impactful projects</li>
-              </ul>
-            <p>
-              You can apply for the cohort when completing registration!
-            </p>
+              <li>To foster connections between students with like-minded interest in computer science </li>
+              <li>To create a community beyond students' high schools for discussion, interaction, and innovation</li>
+              <li>To encourage the long-term development of students ability to create impactful projects</li>
+            </ul>
             <img src="/img/fox.png" alt="fox" id={styles.fox} />
           </div>
           {/*<img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.plane} />*/}
@@ -124,46 +128,63 @@ function MainPage() {
             
             <img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.invertedPlane} />
             <h3 className={styles.tracksTitle}>Tracks</h3>
-              <h3>Web Development</h3>
-              <p>
-              Want to learn about the technologies core to the internet? Then Web Development is for you. 
-              This track will teach you the fundamentals of HTML, CSS, and JavaScript so you can build your own website.
-              Students will be given the opportunity to host their websites via GitHub Pages and learn about the basics of how 
-              websites function and interact with the world.
-              </p>
-              <div className={styles.rightTracks}>
-                <h3>Computer-Aided Design</h3>
-                <p>Do you ever wonder how common household products are made?  Would you be interested in designing and making 
-                those products yourself? If you like the idea of fabricating hardware products from scratch, then the Modeling track is for you!
-                You will learn how to use CAD software to create 3D designs and make them with machines like 3D printers, lathes, etc.
-                </p>
-                </div>
-              <h3>Data Science and Artificial Intelligence</h3>
-              <p>Do you ever wonder how things like Netflix recommendations and Spotify playlists are made?  Are you a technical person and like 
+              <div className={styles.track}>
+                <h3>AI/ML</h3>
+                <p>
+                Do you ever wonder how things like Netflix recommendations and Spotify playlists are made?  Are you a technical person and like 
                 learning about what goes on in the background? If so, you should consider the ML track!
                 In this track, you will learn how concepts like Data Science and AI come together to create Machine Learning based products!  
                 Things like data integration, learning models, and information recognition will become much less foreign to you after going through this track.
-              </p>
-              <div className={styles.rightTracks}>
-                <h3>Product Design & Entrepreneurship</h3>
-                <p>Have you ever dreamt of starting your own business? Are you a creative thinker and a problem solver? Then the Product Development and Entrepreneurship track is for you!
+                </p>
+              </div>
+              <div className={styles.track}>
+                <h3>Web Scraping</h3>
+                <p>
+                In this track, we'll teach you how to take in data from the web to use for analysis or code through Python. We will mainly be webscraping 
+                websites- looking at the websites that you use everyday and give you a look behind the curtain into their web code and their data. At the 
+                end of the day, every student will have the chance to choose their own topic and web data to investigate as a personal project. Make sure 
+                to join this track if you want to expand your coding knowledge and are interested in the behind the scenes of the internet!
+                </p>
+              </div>
+              <div className={styles.track}></div>
+                <h3>Intro to Chemical Engineering</h3>
+                <p>
+                  This track aims to give students a brief overview about organic chemistry, chemical synthesis, and chemical engineering. We will introduce 
+                  the basic concepts of organic chemistry, polymer science, and chemical engineering. In the end, students are able to work in groups to make 
+                  chemical bonds, molecules, and polymer structures using the molecule kit provided by us. This workshop is for students who are interested in 
+                  chemistry, chemical engineering, and biotechnology.
+                </p>
+              </div>
+              <div className={styles.track}>
+                <h3>Cracking the Code: Cryptography and Number Theory</h3>
+                {/* <p>
+                  Have you ever dreamt of starting your own business? Are you a creative thinker and a problem solver? Then the Product Development and Entrepreneurship track is for you!
+                  With this track you will be able to brainstorm products, work around the risks that go into creating a new product and simulate the process of product creation from ideation to execution. 
+                  You will see the versatility of computer science and how it intertwines with the business world.
+                </p> */}
+              </div>
+              <div className={styles.track}>
+                <h3>UI/UX Design</h3>
+                {/* <p>
+                Have you ever dreamt of starting your own business? Are you a creative thinker and a problem solver? Then the Product Development and Entrepreneurship track is for you!
                 With this track you will be able to brainstorm products, work around the risks that go into creating a new product and simulate the process of product creation from ideation to execution. 
                 You will see the versatility of computer science and how it intertwines with the business world.
+                </p> */}
+              </div>
+              <div>
+                <h3 className={styles.sectionTitle}>Start your Story!</h3>
+                <p className={styles.sectionPCenter}>
+                  Registration is FREE and is open NOW at catalyst.hexlabs.org and closes on April 2nd. 
+                  Cohort interest will be accepted until March 2nd.
                 </p>
-            </div>
-            <h3 className={styles.sectionTitle}>Start your Story!</h3>
-              <p className={styles.sectionPCenter}>
-                Registration is FREE and is open NOW at catalyst.hexlabs.org and closes on April 2nd. 
-                Cohort interest will be accepted until March 2nd.
-              </p>
-              <div className={styles.row}>
-            </div>
+                <div className={styles.row}>
+              </div>
             <div className={styles.row}></div>
-            <a href="https://registration.hexlabs.org/63f7b3dca3d739b66acf39c8" rel="noopener" target="_blank">
-            <div className={styles.rectangle}>
-              <h3 className={styles.registerTitle}>Register Today!</h3>
+            <div className={styles.register}>
+              <a className={styles.registerButton} href="https://registration.hexlabs.org/63f7b3dca3d739b66acf39c8" rel="noopener" target="_blank">
+                <h4 className={styles.registerTitle}>Register Today!</h4>
+              </a>
             </div>
-          </a>
           </div>
         </section>
         <section id="schedule" className={styles.sectionSchedule}>
@@ -181,7 +202,7 @@ function MainPage() {
           </div>
           <div className={styles.question}>Where is Catalyst?</div>
           <div className={styles.answer}>{`Catalyst will be held on Georgia Tech's campus!`}</div>
-          <div className={styles.question}>Do I need to bring anything to cohort meeting?</div>
+          <div className={styles.question}>Do I need to bring anything to the learn-a-thon?</div>
           <div className={styles.answer}>
             Nope! We will provide food for every participant and laptops when necessary.
             Participants are welcome to bring their own devices.
@@ -205,12 +226,13 @@ function MainPage() {
           </div>
           <p className={styles.contactText}>
             Other Questions? <br></br>
-            <br></br> Email us at:
+            <br></br> Email us at: 
             <u>
               <a href="mailto: hello@hexlabs.org">hello@hexlabs.org</a>
             </u>
               and {`we'll`} be happy to help!
           </p>
+          <img src="/img/roses.png" id={styles.rosesandstars}></img>
         </section>
         <footer className={styles.sectionFooter}>
           <img src="/img/footer_stars.png" alt="footer" id={styles.footerImg} />

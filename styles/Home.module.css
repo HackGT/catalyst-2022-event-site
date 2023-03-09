@@ -1,5 +1,3 @@
-/* eslint no-img-element: 0 */
-
 @font-face {
   font-family: Roboto;
   src: url("Roboto/Roboto-Light.ttf");
@@ -12,57 +10,33 @@
   font-family: Fairy Cottage;
   src: url("Fairy Cottage.ttf");
 }
-/* .gradientBackground {
-  background-image: linear-gradient(#93bbbf, #bdb2b4, #f2a7a7, #f2a7a7, #f4b3a1, #f8cf91);
-} */
 
 .sectionIntro {
-  width: 100vw;
-  height: 60vw;
   background: #151046;
-  z-index: 0;
-} 
-.title {
-  position: relative;
-  top: 1vw;
-  width: 50vw;
-  height: 50vw;
-  margin: auto;
-  font-family: Fairy Cottage;
-  font-weight: normal;
-  font-size: 15vw;
-  text-align: center;
-  letter-spacing: -0.015em;
-  color: #FFBC39;
-  z-index: 2;
+  justify-content: center;
 }
-.description {
-  position: relative;
-  margin: auto;
-  top: -6.5ex;
-  left: -2.5ex;
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 4vw;
-  line-height: 75px;
+
+.title {
+  font-family: Fairy Cottage;;
   text-align: center;
-  align-items: center;
-  letter-spacing: 0em;
+  justify-content: center;
+}
+
+.description {
+  margin: auto;
+  font-weight: normal;
+  text-align: center;
   color: #FFBC39;
-  z-index: 2;
 }
 
 .topNav {
   position: fixed;
+  width: 100%;
+  margin: 0;
   background-color: #4a60f4;
-  overflow: hidden;
-  z-index: 10;
-  width: 100vw;
-  height: 10vh;
   background-color: rgb(76, 73, 111);
   display: flex;
   justify-content: space-evenly;
-  /* align-items: center; */
 }
 
 .topNav a {
@@ -71,11 +45,10 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 45px;
+  font-size: 50px;
   font-family: Fairy Cottage;
 }
 
-/* Change the color of links on hover */
 .topNav a:hover {
   background-color: #ddd;
   color: black;
@@ -83,18 +56,18 @@
 
 #moonImg {
   position: relative;
-  top: -16vw;
   width: 100vw;
   height: auto;
   z-index: 1;
 }
+
 #fadeImg {
   position: relative;
-  top: -16.75vw;
   width: 100vw;
   height: 15vw;
   z-index: 1;
 }
+
 #hang1Img {
   position: relative;
   top: 5vw;
@@ -115,12 +88,10 @@
 #hang3Img {
   position: relative;
   top: 5vw;
-  width: auto;
+  background-size: cover;
   height: 20vw;
-  float: right;
-  z-index: 1;
-  overflow: hidden;
 }
+
 #hang4Img {
   position: relative;
   top: 5vw;
@@ -130,124 +101,93 @@
   z-index: 1;
   overflow: hidden;
 }
+
 .sectionAbout {
-  padding-top: 5vh;
-  padding-right: 30%;
-  width: 100vw;
-  height: auto;
-  background: #151046;
-  scroll-margin-top: 8vh;
-}
-.ourGoals {
-  position: relative;
-  padding-top: 12.5vh;
-  padding-right: 30%;
-  width: 100vw;
-  height: auto;
-  background: #151046;
+  margin: 5%;
 }
 
 #paperPlane {
-  position: absolute;
-  width: 50vw;
-  height: 40vw;
-  right: 0vh;
-  top: 135vh;
-  display: block;
-  z-index: 1;
-  overflow: auto;
+  width: 100%;
 }
 
 #invertedPlane {
   position: relative;
-  width: auto;
-  height: auto;
-  margin-top: -10vh;
-  margin-bottom: -60vh;
+  width: 100%;
   display: block;
-  z-index: 1;
-  overflow: auto;
 }
 
 #rosesandstars {
-  position: relative;
-  width: 100vw;
+  background-size: cover;
+  width: 100%;
   height: auto;
 }
 
 #elephant {
-  position: absolute;
-  width: 30vw;
-  height: auto;
-  right: 20vh;
-  top: 225vh;
-  display: flex;
-  z-index: 1;
-  overflow: auto;
+  width: 100%;
+  background-size: cover;
 }
 
 #fox {
-  position: relative;
-  width: 30vw;
+  width: 100%;
   height: auto;
-  left: 5vw;
-  margin-right: 30vh;
-  margin-top: -40vh;
-  margin-left: auto;
-  display: block;
-  z-index: 1;
-  overflow: auto;
+  background-size: cover;
 }
 
 #sheep {
   position: relative;
-  width: 30vw;
+  background-size: cover;
+  width: 100%;
   height: auto;
-  margin-left: -65vh;
-  margin-top: -45vh;
-  display: block;
-  z-index: 1;
   overflow: auto;
 }
 
-.sectionDuringDay {
-    padding-top: 5vh;
-    width: 100vw;
+@media (max-width: 600px) {
+  .sectionDuringDay {
     height: auto;
-    background: #151046;
+    flex-direction: column;
+  }
+  
+  .sectionCatalystCohort {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .ourGoals {
+    height: auto;
+    flex-direction: column;
+  } 
 }
 
-.sectionText {
-  width: 100vw;
-  height: auto;
-  background: #151046;
-}
-.sectionCurrentStudent {
-  padding: 3rem 0 1rem 0;
-}
-.sectionDuringDay {
-  padding-top: 5vh;
+@media(max-width: 2048px) {
+
+  .ourGoals {
+    height: auto;
+    display: flex;
+  }
+
+  .sectionDuringDay {
+    height: auto;
+    display: flex;
+  }
+
+
+  .sectionCatalystCohort {
+    height: auto;
+    display: flex;
+  }
+
 }
 
 .sectionTracks {
-  width: 100vw;
   height: auto;
-  padding: 0 0 0 -20vh;
-  background: #151046;
-  scroll-margin-top: -25vh;
-  z-index: 10;
 }
 
-.rightTracks {
-  /*padding-top: 0vh; */
-  width: 100vw;
+.track {
   height: auto;
-  margin-top: -30vh;
-  padding-left: 42.5vw;
-  background: #151046;
+  padding-bottom: 2vw;
 }
+
 .sectionSchedule {
-  width: 100vw;
   height: auto;
   padding: 20vh 0 10vh 0;
   left: 0px;
@@ -260,9 +200,6 @@
   margin:auto;
   font-family: Roboto;
   font-weight: normal;
-  /* border: 1px, 1px, 1px, 1px;
-  border-color: white;
-  border-style: solid; */
   padding: 2rem;
   text-align: left;
 }
@@ -279,34 +216,11 @@
   width: auto;
   margin:auto;
   font-family: Calama;
-  font-size: 3rem;
-  padding-bottom: 1rem;
-  letter-spacing: .07em;
   text-align: center;
 }
 
 .sectionFAQ {
-  width: 100vw;
   height: auto;
-  background: #151046;
-  scroll-margin-top: 10vh;
-}
-
-.sectionCatalystCohort {
-  padding-top: 15vh;
-  width: 100vw;
-  height: auto;
-  padding-left: 45vw;
-  background: #151046;
-}
-
-.centeredP {
-  position: relative;
-  text-align: center;
-  margin-left: 50vh;
-  align-items: center;
-  display: flex;
-  /* justify-self: center; */
 }
 
 .question {
@@ -319,6 +233,7 @@
   text-align: center;
   background: #a4b3f2;
   font-family: Roboto;
+  font-size: 28px;
   padding: 24px 24px;
   border-radius: 30px;
   border: none;
@@ -326,75 +241,39 @@
   z-index: 9;
   text-align: left;
 }
+
 .answer {
   width: 75%;
   margin: auto;
   position: relative;
-  /* background: #539dfc; */
-  /*background: #3399ff; */
   background: #4a60f4;
+  color: black;
   border-radius: 30px;
   font-family: Roboto;
-  font-size: 1rem;
+  font-size: 22px;
   padding: 24px 24px;
   padding-top: 48px;
   transform: translateY(calc(-1 * 32px));
   z-index: 0;
   text-align: left;
 }
+
 .sectionFooter {
-  width: 100vw;
-  z-index: 0;
+  text-align: center;
   background: #151046;
 }
+
 .socials {
-  z-index: 1000;
-  margin-right: 2rem;
   position: relative;
-  bottom: 4rem;
-  float: right;
 }
+
+/* 
+
 .imageMargin {
   margin-left: 0.5rem;
 }
 .row {
   display: flex;
-}
-@media (min-width: 1101px) {
-  .textBoundaries {
-    width: 35vw;
-    margin: auto;
-    padding-left: 0rem;
-  }
-  .trackTitle {
-    width: 30vw;
-    line-height: 3.5rem;
-  }
-}
-@media (max-width: 1100px) {
-  .row {
-    display: inline;
-  }
-  .textBoundaries {
-    width: 80vw;
-  }
-  .marginText {
-    padding: 0vh !important;
-    margin: 0 !important;
-
-  }
-  .registerButton {
-    display: block !important;
-  }
-  .button {
-    margin-bottom: 0 !important;
-    margin-right: 2rem;
-  }
-}
-@media (max-width: 800px) {
-  .button {
-    margin-right: 10px;
-  }
 }
 .column {
   width: auto;
@@ -410,17 +289,6 @@
   font-size: 3rem;
   text-align: center;
   margin: auto;
-}
-.rectangle {
-  position: relative;
-  width: 25vw;
-  height: auto;
-  margin: auto;
-  margin-top: 0.5rem;
-  border-radius: 25px;
-  background: rgb(76, 73, 111);
-  padding: 2.5vh;
-  text-align: center;
 }
 
 .button {
@@ -441,16 +309,39 @@
 
 .contactText {
   font-family: Roboto;
-  width: 75%;
   font-size: 1rem;
   left: 10vw;
   padding-bottom: 5vh;
 }
-.registerTitle {
-  position: relative;
-  padding-left: 0;
-  width: 25vw;
+
+*/
+
+.rectangle {
+  border-radius: 25px;
+  background: rgb(76, 73, 111);
+  padding: 2.5vh;
+  text-align: center;
 }
+
+.registerTitle {
+  text-align: center;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+}
+
+.registerButton {
+  width: 40vh;
+  border-radius: 25px;
+  margin-bottom: 5%;
+  background-color: rgb(76, 73, 111);
+  justify-content: center;
+}
+
+/*
+
 #clouds2Img {
   position: relative;
   float: right;
@@ -468,10 +359,16 @@
   left: 10vw;
   transform: rotate(30deg);
 }
+
+*/
+
 #footerImg {
-  width: 100vw;
-  height: auto;
+  width: 100%;
+  background-size: cover;
 }
+
+/*
+
 #mapImg {
   position: relative;
   right: -40vw;
@@ -512,12 +409,6 @@
   font-size: 60px;
 }
 
-.registerButton {
-  display: flex;
-  gap: 1vw;
-  margin: auto;
-  justify-content: center;
-}
 #luggageImg {
   position: relative;
   width: 40vw;
@@ -533,6 +424,7 @@
   height: auto;
   object-fit: cover;
 }
+
 @media (max-width: 600px) {
   #moonImg {
     visibility: hidden;
@@ -541,6 +433,7 @@
     visibility: hidden;
   }
 }
+
 @media (max-width: 1000px) {
   #elephant {
     visibility: hidden;
@@ -561,70 +454,6 @@
   #invertedPlane {
     visibility: hidden;
   }
-  .sectionCatalystCohort {
-      padding-top: 15vh;
-      width: 100vw;
-      height: auto;
-      float: right;
-      background: #151046;
-  }
 }
-/* @media (max-width: 700px) and (min-width: 510px) {
-  #signsImg {
-    width: 80vw;
-    transform: translate(-90%, 20%);
-  }
-  #paperPlane {
-    width: 35vw;
-    height: auto;
-    right: 0vw;
-    top: 109vh;
-    visibility: hidden;
-  }
-  #luggageImg {
-    width: 80vw;
-    right: -15vw;
-    top: -120vh;
-    visibility: hidden;
-  }
-} */
-/* @media (max-width: 700px) {
-  .rectangle {
-    width: 50vw;
-    height: auto;
-    margin: auto;
-    margin-top: 12rem;
-    margin-bottom: 5vh;
-    background: #f2bba7;
-    padding: 5vh 10vw 5vh 10vw;
-    text-align: center;
-  }
-  #clouds2Img {
-    width: 40vw;
-    bottom: -5vh;
-    right: 7vw;
-    transform: rotate(10deg);
-  }
-  #passportImg {
-    width: 45vw;
-    bottom: 50vh;
-    left: 5vw;
-  }
-  #mapImg {
-    right: 15vw;
-    width: 50vw;
-    bottom: -10vh;
-  }
-  #luggageImg {
-    width: 80vw;
-    right: -15vw;
-    top: -160vh;
-    visibility: hidden;
-  }
-}
-#cloud1Img {
-  position: relative;
-  width: 40vw;
-  height: auto;
-  left: -40vw;
-} */
+
+*/
