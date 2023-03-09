@@ -39,14 +39,28 @@
   justify-content: space-evenly;
 }
 
-.topNav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 50px;
-  font-family: Fairy Cottage;
+@media (max-width: 2048px) {
+  .topNav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: Fairy Cottage;
+  }
+}
+
+@media (max-width: 600px) {
+  .topNav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: Fairy Cottage;
+  }
 }
 
 .topNav a:hover {
