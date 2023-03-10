@@ -79,9 +79,10 @@ function MainPage() {
           <h3>During the Day</h3>
           <div className={styles.sectionDuringDay}>
             <p>
-              Throughout the day, students will have the opportunity to follow one of four tracks:
-              Web Development, Product Development & Entrepreneurship, Data Science & AI, or Computer Aided Design.<br></br>
-              <br></br>
+              Throughout the day, students will have the opportunity to follow one of six tracks:
+              AI/ML, Web Scraping, Intro to Chemical Engineering, 
+              Cracking the Code: Cryptography and Number Theory, or UI/UX Design.
+              <br></br><br></br>
               Each track consists of interactive workshops and curriculum that encourages students to think critically and creatively.
               Additionally, there will be opportunities for students to engage and connect with various industry professionals and college students.<br></br>
               <br></br>
@@ -157,25 +158,45 @@ function MainPage() {
               </div>
               <div className={styles.track}>
                 <h3>Cracking the Code: Cryptography and Number Theory</h3>
-                {/* <p>
-                  Have you ever dreamt of starting your own business? Are you a creative thinker and a problem solver? Then the Product Development and Entrepreneurship track is for you!
-                  With this track you will be able to brainstorm products, work around the risks that go into creating a new product and simulate the process of product creation from ideation to execution. 
-                  You will see the versatility of computer science and how it intertwines with the business world.
-                </p> */}
+                <p>
+                This track focuses on real-world applications of cryptography 
+                and number theory. Cryptography is used to encode and decode 
+                messages and we will be learning techniques on how to do this.
+                We will be looking into multiple frameworks number theory is 
+                based off of such as modular arithmetic and RSA encryption. 
+                The combination of both of these topics is used to protect data 
+                and this track will allow students to have a deeper understanding 
+                of mathematics, computer science, and information security.
+                </p>
               </div>
               <div className={styles.track}>
                 <h3>UI/UX Design</h3>
-                {/* <p>
-                Have you ever dreamt of starting your own business? Are you a creative thinker and a problem solver? Then the Product Development and Entrepreneurship track is for you!
-                With this track you will be able to brainstorm products, work around the risks that go into creating a new product and simulate the process of product creation from ideation to execution. 
-                You will see the versatility of computer science and how it intertwines with the business world.
-                </p> */}
+                <p>
+                  If you're interested in technology and design, 
+                  then UI/UX is the perfect combination! 
+                  UI/UX is all about creating easy to use and visually appealing designs for websites and apps. 
+                  It's a skill that is in high demand, as companies are focused 
+                  on creating products that offer a great user experience. 
+                  This track will teach you basic UI/UX principles, 
+                  industry tools like Figma, and other skills that will help you 
+                  succeed in a career in technology design.
+                </p>
+              </div>
+              <div className={styles.track}>
+                <h3>Virtual World</h3>
+                <p>
+                  Want to know more about how apps like Spotify and TikTok work? 
+                  Join us for “Understanding the Virtual World” track to get an in 
+                  depth understanding of the data structures and algorithms that 
+                  are used in building your favorite social media platforms! 
+                  Students will also have the opportunity to utilize the 
+                  information they learn to design their very own project!
+                </p>
               </div>
               <div>
                 <h3 className={styles.sectionTitle}>Start your Story!</h3>
                 <p className={styles.sectionPCenter}>
-                  Registration is FREE and is open NOW at catalyst.hexlabs.org and closes on April 2nd. 
-                  Cohort interest will be accepted until March 2nd.
+                  Registration is open NOW!
                 </p>
                 <div className={styles.row}>
               </div>
@@ -194,8 +215,8 @@ function MainPage() {
         </section>
         <section id="faq" className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
-          <div className={styles.question}>When will the cohort meet?</div>
-          <div className={styles.answer}>Saturday, November 5th and Saturday, November 12th.</div>
+          {/* <div className={styles.question}>When will the cohort meet?</div>
+          <div className={styles.answer}>Saturday, November 5th and Saturday, November 12th.</div> */}
           <div className={styles.question}>Who can apply?</div>
           <div className={styles.answer}>
             High school students from all across Georgia are welcome to register.
