@@ -156,6 +156,7 @@
 }
 
 .sectionAbout {
+  padding-top: 50px;
   margin: 5%;
 }
 
@@ -233,6 +234,7 @@
 }
 
 .sectionTracks {
+  padding-top: 50px;
   height: auto;
 }
 
@@ -274,6 +276,7 @@
 }
 
 .sectionFAQ {
+  padding-top: 50px;
   height: auto;
 }
 
