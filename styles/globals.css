@@ -80,11 +80,15 @@ ul {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 60px;
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 40px;
   }
 
   h3 {
-    font-size: 40px;
+    font-size: 60px;
   }
 
   p, ul, li {
