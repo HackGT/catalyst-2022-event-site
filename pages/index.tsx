@@ -29,13 +29,15 @@ function MainPage() {
             <img src="/img/hang3.png" alt="hanging image 3" id={styles.hang3Img} />
             <img src="/img/hang1.png" alt="hanging image 4" id={styles.hang4Img} />
           </section>
-          <h1 className={styles.title}>CATALYST</h1>
-          <h3 className={styles.description}>
-            hexlabs
-          </h3>
-          <img src="/img/moon.png" alt="moon" id={styles.moonImg} />
-          <img src="/img/fade.png" alt="fade" id={styles.fadeImg} />
         </section>
+        <div className = {styles.sectionTitles}>
+            <section>
+              <h1 id={styles.mainTitle}>CATALYST</h1>
+              <h3 id={styles.orgTitle}>hexlabs</h3>
+          </section>
+        </div>
+        <img src="/img/moon.png" alt="moon" id={styles.moonImg} />
+        <img src="/img/fade.png" alt="fade" id={styles.fadeImg} />
         <section id="about" className={styles.sectionAbout}>
           <h3>About</h3>
           <section className={styles.sectionAboutText}>
@@ -55,10 +57,9 @@ function MainPage() {
               </li>
             </ul>
             </section>
-          <img src="/img/plane.png" alt="paper airplane" id={styles.paperPlane} />
         </section>
-        <section className={styles.sectionText}>
-          <div className={styles.sectionCurrentStudent}>
+        <section>
+          <div>
             <h3>If You Are a Current Georgia Tech Student</h3>
             <p>You're still able to participate in the event! 
               Each year, GT students volunteer as mentors to help facilitate the projects and activities included in each available track. 
@@ -79,9 +80,10 @@ function MainPage() {
           <h3>During the Day</h3>
           <div className={styles.sectionDuringDay}>
             <p>
-              Throughout the day, students will have the opportunity to follow one of four tracks:
-              Web Development, Product Development & Entrepreneurship, Data Science & AI, or Computer Aided Design.<br></br>
-              <br></br>
+              Throughout the day, students will have the opportunity to follow one of six tracks:
+              AI/ML, Web Scraping, Intro to Chemical Engineering, 
+              Cracking the Code: Cryptography and Number Theory, or UI/UX Design.
+              <br></br><br></br>
               Each track consists of interactive workshops and curriculum that encourages students to think critically and creatively.
               Additionally, there will be opportunities for students to engage and connect with various industry professionals and college students.<br></br>
               <br></br>
@@ -97,12 +99,14 @@ function MainPage() {
               <br/>
               of our Catalyst learn-a-thon.
               A select group of students will have the opportunity to join the Catalyst Cohort.
-              <br/>
+              <br />
+              <br />
               Those who join the cohort will have a two-month immersive 
-              <br/>
+              <br />
               introductory STEM experience in web development before our learn-a-thon event!
+              <br />
+              <br />
               In addition to the extended exploration into web development, students will have the opportunity to engage in extracurricular activities,
-              <br/>
               like field trips, office visits, and campus tours, for insight into professional and academic possibilities.
               Cohort members will also have access to and work with HexLabs mentors to complete a unique personal project!
               <br/><br/>
@@ -125,11 +129,9 @@ function MainPage() {
         </section>
         <section id="tracks" className={styles.sectionTracks}>
           <div>
-            
-            <img src="/img/inverted_plane.png" alt="inverted_plane" id={styles.invertedPlane} />
             <h3 className={styles.tracksTitle}>Tracks</h3>
               <div className={styles.track}>
-                <h3>AI/ML</h3>
+                <h2>AI/ML</h2>
                 <p>
                 Do you ever wonder how things like Netflix recommendations and Spotify playlists are made?  Are you a technical person and like 
                 learning about what goes on in the background? If so, you should consider the ML track!
@@ -138,7 +140,7 @@ function MainPage() {
                 </p>
               </div>
               <div className={styles.track}>
-                <h3>Web Scraping</h3>
+                <h2>Web Scraping</h2>
                 <p>
                 In this track, we'll teach you how to take in data from the web to use for analysis or code through Python. We will mainly be webscraping 
                 websites- looking at the websites that you use everyday and give you a look behind the curtain into their web code and their data. At the 
@@ -147,7 +149,7 @@ function MainPage() {
                 </p>
               </div>
               <div className={styles.track}></div>
-                <h3>Intro to Chemical Engineering</h3>
+                <h2>Intro to Chemical Engineering</h2>
                 <p>
                   This track aims to give students a brief overview about organic chemistry, chemical synthesis, and chemical engineering. We will introduce 
                   the basic concepts of organic chemistry, polymer science, and chemical engineering. In the end, students are able to work in groups to make 
@@ -156,26 +158,46 @@ function MainPage() {
                 </p>
               </div>
               <div className={styles.track}>
-                <h3>Cracking the Code: Cryptography and Number Theory</h3>
-                {/* <p>
-                  Have you ever dreamt of starting your own business? Are you a creative thinker and a problem solver? Then the Product Development and Entrepreneurship track is for you!
-                  With this track you will be able to brainstorm products, work around the risks that go into creating a new product and simulate the process of product creation from ideation to execution. 
-                  You will see the versatility of computer science and how it intertwines with the business world.
-                </p> */}
+                <h2>Cracking the Code: Cryptography and Number Theory</h2>
+                <p>
+                This track focuses on real-world applications of cryptography 
+                and number theory. Cryptography is used to encode and decode 
+                messages and we will be learning techniques on how to do this.
+                We will be looking into multiple frameworks number theory is 
+                based off of such as modular arithmetic and RSA encryption. 
+                The combination of both of these topics is used to protect data 
+                and this track will allow students to have a deeper understanding 
+                of mathematics, computer science, and information security.
+                </p>
               </div>
               <div className={styles.track}>
-                <h3>UI/UX Design</h3>
-                {/* <p>
-                Have you ever dreamt of starting your own business? Are you a creative thinker and a problem solver? Then the Product Development and Entrepreneurship track is for you!
-                With this track you will be able to brainstorm products, work around the risks that go into creating a new product and simulate the process of product creation from ideation to execution. 
-                You will see the versatility of computer science and how it intertwines with the business world.
-                </p> */}
+                <h2>UI/UX Design</h2>
+                <p>
+                  If you're interested in technology and design, 
+                  then UI/UX is the perfect combination! 
+                  UI/UX is all about creating easy to use and visually appealing designs for websites and apps. 
+                  It's a skill that is in high demand, as companies are focused 
+                  on creating products that offer a great user experience. 
+                  This track will teach you basic UI/UX principles, 
+                  industry tools like Figma, and other skills that will help you 
+                  succeed in a career in technology design.
+                </p>
+              </div>
+              <div className={styles.track}>
+                <h2>Understanding the Virtual World: Algorithms and Data Structures</h2>
+                <p>
+                  Want to know more about how apps like Spotify and TikTok work? 
+                  Join us for “Understanding the Virtual World” track to get an in 
+                  depth understanding of the data structures and algorithms that 
+                  are used in building your favorite social media platforms! 
+                  Students will also have the opportunity to utilize the 
+                  information they learn to design their very own project!
+                </p>
               </div>
               <div>
                 <h3 className={styles.sectionTitle}>Start your Story!</h3>
                 <p className={styles.sectionPCenter}>
-                  Registration is FREE and is open NOW at catalyst.hexlabs.org and closes on April 2nd. 
-                  Cohort interest will be accepted until March 2nd.
+                  Registration is open NOW!
                 </p>
                 <div className={styles.row}>
               </div>
@@ -194,8 +216,6 @@ function MainPage() {
         </section>
         <section id="faq" className={styles.sectionFAQ}>
           <h3 className={styles.sectionTitle}>FAQ</h3>
-          <div className={styles.question}>When will the cohort meet?</div>
-          <div className={styles.answer}>Saturday, November 5th and Saturday, November 12th.</div>
           <div className={styles.question}>Who can apply?</div>
           <div className={styles.answer}>
             High school students from all across Georgia are welcome to register.
