@@ -183,7 +183,7 @@
 }
 
 #fox {
-  width: 40%;
+  width: 100%;
   height: auto;
   background-size: cover;
 }
@@ -289,8 +289,8 @@
   color: black;
   text-align: center;
   background: #a4b3f2;
-  font-family: Roboto;
-  font-size: 28px;
+  font-family: Fairy Cottage;
+  font-size: 35px;
   padding: 24px 24px;
   border-radius: 30px;
   border: none;
@@ -306,8 +306,8 @@
   background: #4a60f4;
   color: black;
   border-radius: 30px;
-  font-family: Roboto;
-  font-size: 22px;
+  font-family: Fairy Cottage;
+  font-size: 25px;
   padding: 24px 24px;
   padding-top: 48px;
   transform: translateY(calc(-1 * 32px));

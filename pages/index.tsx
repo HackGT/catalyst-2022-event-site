@@ -196,9 +196,6 @@ function MainPage() {
               </div>
               <div>
                 <h3 className={styles.sectionTitle}>Start your Story!</h3>
-                <p className={styles.sectionPCenter}>
-                  Registration is open NOW!
-                </p>
                 <div className={styles.row}>
               </div>
             <div className={styles.row}></div>
@@ -236,21 +233,11 @@ function MainPage() {
           <div className={styles.answer}>
             HexLabs is a student organization and 501(c)(3) non-profit at Georgia Tech devoted to
             Computer Science outreach in collegiate and high school communities. To learn more,
-            check out our organization website 
-            <u>
-              <a target="_blank" href="" rel="noreferrer">
-                here
-              </a>
-            </u>
-            .
+            check out our organization website <u><a target="_blank" href="" rel="noreferrer">here</a></u>.
           </div>
           <p className={styles.contactText}>
             Other Questions? <br></br>
-            <br></br> Email us at: 
-            <u>
-              <a href="mailto: hello@hexlabs.org">hello@hexlabs.org</a>
-            </u>
-              and {`we'll`} be happy to help!
+            <br></br> Email us at: <u><a href="mailto: hello@hexlabs.org">hello@hexlabs.org</a></u> and {`we'll`} be happy to help!
           </p>
           <img src="/img/roses.png" id={styles.rosesandstars}></img>
         </section>
