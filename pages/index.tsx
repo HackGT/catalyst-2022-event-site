@@ -119,6 +119,7 @@ function MainPage() {
               <li>To foster connections between students with like-minded interest in computer science </li>
               <li>To create a community beyond students' high schools for discussion, interaction, and innovation</li>
               <li>To encourage the long-term development of students ability to create impactful projects</li>
+              <li>To allow prospective college students to see the innovative facilities and programs that Georgia Institute of Technology has to offer</li>
             </ul>
             <img src="/img/fox.png" alt="fox" id={styles.fox} />
           </div>
@@ -155,19 +156,6 @@ function MainPage() {
                   the basic concepts of organic chemistry, polymer science, and chemical engineering. In the end, students are able to work in groups to make 
                   chemical bonds, molecules, and polymer structures using the molecule kit provided by us. This workshop is for students who are interested in 
                   chemistry, chemical engineering, and biotechnology.
-                </p>
-              </div>
-              <div className={styles.track}>
-                <h2>Cracking the Code: Cryptography and Number Theory</h2>
-                <p>
-                This track focuses on real-world applications of cryptography 
-                and number theory. Cryptography is used to encode and decode 
-                messages and we will be learning techniques on how to do this.
-                We will be looking into multiple frameworks number theory is 
-                based off of such as modular arithmetic and RSA encryption. 
-                The combination of both of these topics is used to protect data 
-                and this track will allow students to have a deeper understanding 
-                of mathematics, computer science, and information security.
                 </p>
               </div>
               <div className={styles.track}>
@@ -233,13 +221,12 @@ function MainPage() {
           <div className={styles.answer}>
             HexLabs is a student organization and 501(c)(3) non-profit at Georgia Tech devoted to
             Computer Science outreach in collegiate and high school communities. To learn more,
-            check out our organization website <u><a target="_blank" href="" rel="noreferrer">here</a></u>.
+            check out our organization website <u><a target="_blank" href="https://hexlabs.org/" rel="noreferrer">here</a></u>.
           </div>
           <p className={styles.contactText}>
             Other Questions? <br></br>
             <br></br> Email us at: <u><a href="mailto: hello@hexlabs.org">hello@hexlabs.org</a></u> and {`we'll`} be happy to help!
           </p>
-          <img src="/img/roses.png" id={styles.rosesandstars}></img>
         </section>
         <footer className={styles.sectionFooter}>
           <img src="/img/footer_stars.png" alt="footer" id={styles.footerImg} />
