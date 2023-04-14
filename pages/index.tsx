@@ -196,7 +196,49 @@ function MainPage() {
         </section>
         <section id="schedule" className={styles.sectionSchedule}>
           <img src="/img/stars.png" id={styles.rosesandstars}></img>
-          <h3 className={styles.sectionTitle}>Schedule COMING SOON!</h3>
+          <h3 className={styles.sectionTitle}>Schedule</h3>
+          <div className="container">
+            <div className="wrapper">
+              <ul className="sessions">
+                <li>
+                  <div className="time">08:30 AM - 09:30 AM Drop off/Check in</div>
+                  <p>Come to the check-in table at Klaus to get registered for the event!</p>
+                </li>
+                <li>
+                  <div className="time">09:30 AM - 10:00 AM Opening Ceremony</div>
+                  <p>Join us for our 2023 opening ceremonies!</p>
+                </li>
+                <li>
+                  <div className="time">10:00 AM - 11:30 AM First Learning Block</div>
+                  <p>Have fun learning in your first block of the day!</p>
+                </li>
+                <li>
+                  <div className="time">11:45 AM - 12:30 PM Guest Speaker</div>
+                  <p>Join us for our guest speaker!</p>
+                </li>
+                <li>
+                  <div className="time">12:30 PM - 02:00 PM Lunch</div>
+                  <p>Join us in the Klaus Atrium for some sandwiches from Lee's Bakery and some fun board games!</p>
+                </li>
+                <li>
+                  <div className="time">02:00 PM - 03:30 PM Second Learning Block</div>
+                  <p>Have fun learning in your second block of the day!‍</p>
+                </li>
+                <li>
+                  <div className="time">03:45 PM - 04:15 PM Speaker Panel</div>
+                  <p>Join us to hear from Georgia Tech students at our speaker panel!</p>
+                </li>
+                <li>
+                  <div className="time">04:30 PM - 05:30 PM Closing Ceremony</div>
+                  <p>Join us for closing ceremonies and expo to see what your peers created today!</p>
+                </li>
+                <li>
+                  <div className="time">05:30 PM Pick Up</div>
+                  <p>We hope you had fun at Catalyst and hope to see you next year!</p>
+                </li>
+              </ul>
+            </div>
+          </div>
           <img src="/img/roses.png" id={styles.rosesandstars}></img>
         </section>
         <section id="faq" className={styles.sectionFAQ}>
@@ -225,7 +267,7 @@ function MainPage() {
           </div>
           <p className={styles.contactText}>
             Other Questions? <br></br>
-            <br></br> Email us at: <u><a href="mailto: hello@hexlabs.org">hello@hexlabs.org</a></u> and {`we'll`} be happy to help!
+            <br></br> Email us at: <u><a href="mailto: catalyst@hexlabs.org">catalyst@hexlabs.org</a></u> and {`we'll`} be happy to help!
           </p>
         </section>
         <footer className={styles.sectionFooter}>
