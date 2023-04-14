@@ -249,6 +249,10 @@ function MainPage() {
           </div>
           <div className={styles.question}>Where is Catalyst?</div>
           <div className={styles.answer}>{`Catalyst will be held on Georgia Tech's campus!`}</div>
+          <div className={styles.question}>When is Catalyst?</div>
+          <div className={styles.answer}>
+            Catalyst will be held on Sunday, April 16th, 2023 from 8:30 AM to 5:30 PM.
+          </div>
           <div className={styles.question}>Do I need to bring anything to the learn-a-thon?</div>
           <div className={styles.answer}>
             Nope! We will provide food for every participant and laptops when necessary.
