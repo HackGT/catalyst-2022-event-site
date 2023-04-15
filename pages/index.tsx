@@ -33,6 +33,7 @@ function MainPage() {
         <div className = {styles.sectionTitles}>
             <section>
               <h1 id={styles.mainTitle}>CATALYST</h1>
+              <h3 id={styles.orgTitle}>Sunday, April 16th 2023</h3>
               <h3 id={styles.orgTitle}>hexlabs</h3>
           </section>
         </div>
@@ -248,7 +249,7 @@ function MainPage() {
             High school students from all across Georgia are welcome to register.
           </div>
           <div className={styles.question}>Where is Catalyst?</div>
-          <div className={styles.answer}>{`Catalyst will be held on Georgia Tech's campus!`}</div>
+          <div className={styles.answer}>{`Catalyst will be held on Georgia Tech's campus at the Klaus Advanced Computing Building (266 Ferst Dr NW, Atlanta, GA 30332). Parking can be found at North Campus Parking Deck W23 (State St NW Atlanta, Georgia 30318)`}</div>
           <div className={styles.question}>When is Catalyst?</div>
           <div className={styles.answer}>
             Catalyst will be held on Sunday, April 16th, 2023 from 8:30 AM to 5:30 PM.
